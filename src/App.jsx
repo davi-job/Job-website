@@ -1,5 +1,13 @@
+import HomePage from "./pages/Home-Page";
+import Header from "./components/header";
+
 function App() {
-	return <></>;
+	return (
+		<>
+			<Header />
+			<HomePage />
+		</>
+	);
 }
 
 export default App;

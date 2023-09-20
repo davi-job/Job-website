@@ -1,0 +1,88 @@
+import PrimaryBtn from "./Primary-Btn";
+
+function navHandleClick(event) {
+	document.querySelectorAll(".header-nav-link").forEach((link) => {
+		link.parentElement.classList.remove("selected");
+	});
+
+	event.currentTarget.parentElement.classList.add("selected");
+}
+
+function Header() {
+	const headerNavLinks = document.querySelectorAll(".header-nav-link");
+
+	/////////////////////////////////////////////////////////////////////////////////////////////////
+
+	return (
+		<header className="header">
+			<div className="header-main-container-wrapper">
+				<div className="header-main-container container flex">
+					<div className="header-logo-box">
+						<button className="header-logo-btn" href="#">
+							<img
+								className="header-logo-img"
+								src="../public/job-logo.png"
+								alt="job uniformes logo"
+							/>
+						</button>
+					</div>
+
+					<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
+				</div>
+			</div>
+
+			<div className="header-nav-container container flex">
+				<nav className="header-nav">
+					<ul className="header-nav-list flex">
+						<li className="header-nav-item selected">
+							<a
+								className="header-nav-link"
+								href="#"
+								onClick={(event) => {
+									navHandleClick(event);
+								}}
+							>
+								Home
+							</a>
+						</li>
+						<li className="header-nav-item">
+							<a
+								className="header-nav-link"
+								href="#"
+								onClick={(event) => {
+									navHandleClick(event);
+								}}
+							>
+								Uniformes
+							</a>
+						</li>
+						<li className="header-nav-item">
+							<a
+								className="header-nav-link"
+								href="#"
+								onClick={(event) => {
+									navHandleClick(event);
+								}}
+							>
+								Contato
+							</a>
+						</li>
+						<li className="header-nav-item">
+							<a
+								className="header-nav-link"
+								href="#"
+								onClick={(event) => {
+									navHandleClick(event);
+								}}
+							>
+								Quem somos
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	);
+}
+
+export default Header;
