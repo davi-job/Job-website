@@ -1,3 +1,13 @@
+import PrimaryBtn from "./Primary-Btn";
+
+function navHandleClick(event) {
+	document.querySelectorAll(".header-nav-link").forEach((link) => {
+		link.parentElement.classList.remove("selected");
+	});
+
+	event.currentTarget.parentElement.classList.add("selected");
+}
+
 function Header() {
 	const headerNavLinks = document.querySelectorAll(".header-nav-link");
 
@@ -17,29 +27,19 @@ function Header() {
 						</button>
 					</div>
 
-					<button className="header-cta-btn">
-						Faça seu orçamento!
-					</button>
+					<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
 				</div>
 			</div>
 
 			<div className="header-nav-container container flex">
 				<nav className="header-nav">
 					<ul className="header-nav-list flex">
-						<li className="header-nav-item">
+						<li className="header-nav-item selected">
 							<a
 								className="header-nav-link"
 								href="#"
 								onClick={(event) => {
-									headerNavLinks.forEach((link) => {
-										link.parentElement.classList.remove(
-											"selected"
-										);
-									});
-
-									event.currentTarget.parentElement.classList.add(
-										"selected"
-									);
+									navHandleClick(event);
 								}}
 							>
 								Home
@@ -50,15 +50,7 @@ function Header() {
 								className="header-nav-link"
 								href="#"
 								onClick={(event) => {
-									headerNavLinks.forEach((link) => {
-										link.parentElement.classList.remove(
-											"selected"
-										);
-									});
-
-									event.currentTarget.parentElement.classList.add(
-										"selected"
-									);
+									navHandleClick(event);
 								}}
 							>
 								Uniformes
@@ -69,15 +61,7 @@ function Header() {
 								className="header-nav-link"
 								href="#"
 								onClick={(event) => {
-									headerNavLinks.forEach((link) => {
-										link.parentElement.classList.remove(
-											"selected"
-										);
-									});
-
-									event.currentTarget.parentElement.classList.add(
-										"selected"
-									);
+									navHandleClick(event);
 								}}
 							>
 								Contato
@@ -88,15 +72,7 @@ function Header() {
 								className="header-nav-link"
 								href="#"
 								onClick={(event) => {
-									headerNavLinks.forEach((link) => {
-										link.parentElement.classList.remove(
-											"selected"
-										);
-									});
-
-									event.currentTarget.parentElement.classList.add(
-										"selected"
-									);
+									navHandleClick(event);
 								}}
 							>
 								Quem somos
