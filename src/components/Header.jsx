@@ -21,7 +21,7 @@ function Header() {
 						<button className="header-logo-btn" href="#">
 							<img
 								className="header-logo-img"
-								src="../public/job-logo.png"
+								src="src/images/job-logo.png"
 								alt="job uniformes logo"
 							/>
 						</button>
