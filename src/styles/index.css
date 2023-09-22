@@ -95,7 +95,8 @@ body {
 
 /*************** Primary ***************/
 
-.primary-btn {
+.primary-btn,
+.cta-btn {
 	background-color: var(--secondary-color);
 	border: none;
 	border-radius: 0.6rem;
@@ -146,7 +147,7 @@ body {
 }
 
 .secondary-btn:hover {
-	box-shadow: 0 0 0 0.3rem var(--secondary-color) inset;
+	box-shadow: 0 0 0 0.3rem var(--primary-color) inset;
 
 	transform: scale(1.025);
 }
@@ -246,8 +247,9 @@ body {
 
 	background-image: url(https://source.unsplash.com/random/1920x1080);
 	background-size: cover;
-	background-position: center;
+	background-position: 50% -100px;
 	background-repeat: no-repeat;
+	background-size: 110%;
 }
 
 .hero-section-content {
@@ -373,4 +375,6 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }

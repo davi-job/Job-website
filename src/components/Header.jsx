@@ -1,4 +1,4 @@
-import PrimaryBtn from "./Primary-Btn";
+import CtaBtn from "./CTA-Btn";
 
 function navHandleClick(event) {
 	document.querySelectorAll(".header-nav-link").forEach((link) => {
@@ -27,7 +27,7 @@ function Header() {
 						</button>
 					</div>
 
-					<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
+					<CtaBtn>Faça seu orçamento</CtaBtn>
 				</div>
 			</div>
 
@@ -45,6 +45,7 @@ function Header() {
 								Home
 							</a>
 						</li>
+
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
@@ -56,6 +57,7 @@ function Header() {
 								Uniformes
 							</a>
 						</li>
+
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
@@ -67,6 +69,7 @@ function Header() {
 								Contato
 							</a>
 						</li>
+
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
