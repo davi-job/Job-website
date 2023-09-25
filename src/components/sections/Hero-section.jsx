@@ -1,5 +1,5 @@
-import PrimaryBtn from "./Primary-Btn";
-import SecondaryBtn from "./secondary-Btn";
+import PrimaryBtn from "../Primary-Btn";
+import SecondaryBtn from "../secondary-Btn";
 
 function HeroSection() {
 	return (
