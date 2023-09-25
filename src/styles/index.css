@@ -23,6 +23,8 @@
 	padding: 0;
 
 	box-sizing: border-box;
+
+	scrollbar-width: thin;
 }
 
 html {
@@ -501,4 +503,33 @@ body {
 
 .products-section {
 	margin: 12rem 0;
+}
+
+.products-section-container {
+	max-width: 100rem;
+	gap: 0;
+
+	align-items: center;
+	justify-items: end;
+}
+
+.products-card {
+}
+
+.products-card:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.products-card-image-box {
+	background-color: #222;
+
+	position: relative;
+}
+
+.products-card-image {
+	height: 100%;
+	width: 100%;
+
+	object-fit: cover;
+	object-position: center;
 }
