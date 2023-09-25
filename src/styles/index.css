@@ -1,12 +1,21 @@
 :root {
+	/* Colors */
+
 	--primary-color: #2e3092;
 	--secondary-color: #0874b8;
+	--accent-color: #ffee00;
 
 	--background: #f8f9fc;
 	--text: #222;
 
 	--white: #fff;
 	--black: #000;
+
+	/* Values */
+
+	--clients-list-gap: 9.2rem;
+
+	--heading-secondary-line-height: 1.2rem;
 }
 
 * {
@@ -23,6 +32,8 @@ html {
 
 	overflow-x: hidden;
 	max-width: 100vw;
+
+	scroll-behavior: smooth;
 }
 
 body {
@@ -103,9 +114,10 @@ body {
 	font-size: 3.8rem;
 	font-weight: 700;
 
-	margin-bottom: 1.2rem;
+	margin-bottom: var(--heading-secondary-line-height);
 
-	color: var(--text);
+	border-bottom: 2px solid var(--secondary-color);
+	padding: 0 1.8rem var(--heading-secondary-line-height);
 }
 
 /***************************************/
@@ -267,11 +279,12 @@ body {
 	min-height: 70rem;
 	width: 100vw;
 
-	background-image: url(https://source.unsplash.com/random/);
+	background-image: url(https://source.unsplash.com/random/1920x1080);
+	/* background-image: url(../images/hero-img.jpg); */
 	background-size: cover;
-	background-position: 50% -100px;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 110%;
+	background-size: 100%;
 }
 
 .hero-section-content {
@@ -287,6 +300,8 @@ body {
 	top: 50%;
 	left: 33%;
 	transform: translate(-50%, -50%);
+
+	color: var(--white);
 }
 
 .hero-section-content::before {
@@ -325,8 +340,6 @@ body {
 	letter-spacing: -0.75px;
 
 	margin-bottom: 2.4rem;
-
-	color: var(--white);
 }
 
 .hero-section-content p {
@@ -337,7 +350,7 @@ body {
 
 	margin-bottom: 1.8rem;
 
-	color: var(--white);
+	color: #ebebeb;
 }
 
 /***************************************/
@@ -345,7 +358,7 @@ body {
 /***************************************/
 
 .summary-section {
-	margin: 12rem 0;
+	margin: 12rem 0 18rem;
 }
 
 .summary-section-container {
@@ -353,9 +366,7 @@ body {
 	gap: 0;
 
 	align-items: center;
-	justify-items: center;
-
-	/* background-color: yellow; */
+	justify-items: end;
 }
 
 .summary-section-text {
@@ -363,9 +374,6 @@ body {
 }
 
 .summary-section-text h2 {
-	border-bottom: 2px solid var(--secondary-color);
-	padding: 0 1.8rem 1.2rem;
-
 	font-size: 3.2rem;
 }
 
@@ -386,12 +394,105 @@ body {
 
 	border-radius: 1.8rem;
 
-	background-image: url(https://source.unsplash.com/random/800x800);
+	background-image: url(../images/summary-img.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/***************************************/
+/*************** CLIENTS ***************/
+/***************************************/
+
+.clients-section {
+	margin: 12rem 0;
+	text-align: center;
+}
+
+.clients-heading {
+	margin-bottom: 4.8rem;
+
+	border-color: var(--text);
+
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.clients-list-box {
+	position: relative;
+
+	flex-wrap: nowrap;
+	gap: 0;
+
+	overflow-x: hidden;
+}
+
+.clients-list-box::before,
+.clients-list-box::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+
+	width: 7.5%;
+	height: 100%;
+
+	z-index: 2;
+}
+
+.clients-list-box::before {
+	left: 0;
+
+	background: linear-gradient(
+		to right,
+		var(--background) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.clients-list-box::after {
+	right: 0;
+
+	background: linear-gradient(
+		to left,
+		var(--background) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.clients-list {
+	list-style-type: none;
+
+	gap: var(--clients-list-gap);
+	margin-right: var(--clients-list-gap);
+
+	justify-content: center;
+	align-items: center;
+
+	flex-wrap: nowrap;
+
+	animation: slideLeft 25s linear infinite;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-100% - var(--clients-list-gap)));
+	}
+}
+
+.clients-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.client-item_logo {
+	font-size: 10rem;
 }
 
 /****************************************/
@@ -400,54 +501,4 @@ body {
 
 .products-section {
 	margin: 12rem 0;
-}
-
-.products-section-container {
-	max-width: 150rem;
-}
-
-.products-heading {
-	margin: 3rem 5rem;
-}
-
-.product-card-list {
-	list-style-type: none;
-	gap: 3.2rem;
-}
-
-.product-card {
-	flex-direction: column;
-
-	width: 100%;
-
-	border-radius: 1.6rem;
-
-	overflow: hidden;
-
-	box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
-}
-
-.product-card-image {
-	width: 100%;
-	height: 40rem;
-
-	object-fit: cover;
-	object-position: center;
-}
-
-.product-card-content {
-	margin: 2rem 4.2rem;
-}
-
-.product-card-title {
-	font-size: 2.4rem;
-	font-weight: 600;
-
-	margin-bottom: 1.2rem;
-}
-
-.product-card-text {
-	line-height: 1.35;
-
-	margin-bottom: 1.2rem;
 }

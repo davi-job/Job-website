@@ -1,4 +1,4 @@
-import CtaBtn from "./CTA-Btn";
+import CtaBtn from "../CTA-Btn";
 
 function navHandleClick(event) {
 	document.querySelectorAll(".header-nav-link").forEach((link) => {
@@ -66,7 +66,7 @@ function Header() {
 									navHandleClick(event);
 								}}
 							>
-								Contato
+								Quem somos
 							</a>
 						</li>
 
@@ -78,7 +78,7 @@ function Header() {
 									navHandleClick(event);
 								}}
 							>
-								Quem somos
+								Medidas
 							</a>
 						</li>
 					</ul>
