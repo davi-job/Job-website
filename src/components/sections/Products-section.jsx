@@ -4,7 +4,11 @@ function ProductsSection() {
 	return (
 		<section className="products-section">
 			<div className="products-section-container container">
-				<div className="products-card flex">
+				<h2 className="products-section-title heading-secondary">
+					Conheça nossos produtos
+				</h2>
+
+				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box">
 						<img
 							className="products-card-image"
@@ -15,7 +19,7 @@ function ProductsSection() {
 
 					<div className="products-card-content">
 						<h3 className="products-card-title">
-							Hospitalar com Qualidade Superior
+							<span>Hospitalar</span> com Qualidade Superior
 						</h3>
 
 						<p className="products-card-text">
@@ -26,6 +30,33 @@ function ProductsSection() {
 							conforto e desempenho. Conte conosco para
 							vestimentas hospitalares confiáveis e higiênicas,
 							adaptadas às suas necessidades.
+						</p>
+
+						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+					</div>
+				</div>
+
+				<div className="products-card grid grid--2-cols">
+					<div className="products-card-image-box">
+						<img
+							className="products-card-image"
+							src="https://source.unsplash.com/random/800x800"
+							alt="hero"
+						/>
+					</div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">
+							Elegância <span>Social</span> Variada
+						</h3>
+
+						<p className="products-card-text">
+							Explore nossa variedade de camisas, blusas e calças
+							sociais em diversos tecidos e estilos. Do clássico
+							ao contemporâneo, nossa coleção oferece opções para
+							cada ocasião. Vista-se com estilo e sofisticação em
+							peças que combinam perfeitamente com seu gosto
+							pessoal.
 						</p>
 
 						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
