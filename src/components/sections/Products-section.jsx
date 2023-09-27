@@ -9,10 +9,10 @@ function ProductsSection() {
 				</h2>
 
 				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box">
+					<div className="products-card-image-box flex">
 						<img
 							className="products-card-image"
-							src="https://source.unsplash.com/random/800x800"
+							src="https://source.unsplash.com/random/800x1040"
 							alt="hero"
 						/>
 					</div>
@@ -57,6 +57,90 @@ function ProductsSection() {
 							cada ocasião. Vista-se com estilo e sofisticação em
 							peças que combinam perfeitamente com seu gosto
 							pessoal.
+						</p>
+
+						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+					</div>
+				</div>
+
+				<div className="products-card grid grid--2-cols">
+					<div className="products-card-image-box">
+						<img
+							className="products-card-image"
+							src="https://source.unsplash.com/random/800x800"
+							alt="hero"
+						/>
+					</div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">
+							Proteção <span>Antichama</span> Certificada
+						</h3>
+
+						<p className="products-card-text">
+							Nossas camisas, calças e balaclavas antichamas
+							possuem certificação de aprovação técnica (CA) do
+							MTE, garantindo sua segurança no trabalho. Fique
+							tranquilo sabendo que você está vestindo roupas
+							projetadas para resistir a condições adversas. Sua
+							proteção é nossa prioridade.
+						</p>
+
+						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+					</div>
+				</div>
+
+				<div className="products-card grid grid--2-cols">
+					<div className="products-card-image-box">
+						<img
+							className="products-card-image"
+							src="https://source.unsplash.com/random/800x800"
+							alt="hero"
+						/>
+					</div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">
+							Roupas <span>Profissionais</span> de Alta Qualidade
+						</h3>
+
+						<p className="products-card-text">
+							Oferecemos uma ampla seleção de camisas, calças,
+							bermudas e macacões projetados especificamente para
+							uso profissional. Nossas peças são duráveis,
+							confortáveis e prontas para enfrentar as demandas do
+							seu trabalho. Conte conosco para vestimentas que
+							combinam funcionalidade e estilo, ajudando você a se
+							destacar no ambiente de trabalho.
+						</p>
+
+						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+					</div>
+				</div>
+
+				<div className="products-card grid grid--2-cols">
+					<div className="products-card-image-box">
+						<img
+							className="products-card-image"
+							src="https://source.unsplash.com/random/800x800"
+							alt="hero"
+						/>
+					</div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">
+							Versatilidade em <span>Malhas</span>
+						</h3>
+
+						<p className="products-card-text">
+							Descubra nossa coleção de camisas gola polo, gola
+							redonda e gola V em uma variedade de malhas e
+							padronagens. Encontre o equilíbrio perfeito entre
+							conforto e estilo, independentemente da ocasião.
+							Nossas opções de malhas garantem que você esteja
+							bem-vestido em todas as situações, com uma variedade
+							de designs para escolher. Vista-se com confiança e
+							elegância.
 						</p>
 
 						<PrimaryBtn>VEJA MAIS</PrimaryBtn>

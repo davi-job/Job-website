@@ -494,7 +494,7 @@ body {
 }
 
 .client-item_logo {
-	font-size: 10rem;
+	font-size: 9rem;
 }
 
 /****************************************/
@@ -572,11 +572,10 @@ body {
 	font-size: 3.2rem;
 	font-weight: 500;
 
-	margin-bottom: 4.6rem;
+	margin-bottom: 2.8rem;
 }
 
 .products-card-title span {
-	/* border-bottom: 3px solid var(--secondary-color); */
 	text-decoration: underline var(--secondary-color);
 
 	font-weight: 700;
@@ -588,7 +587,7 @@ body {
 	line-height: 1.35;
 	letter-spacing: -0.25px;
 
-	margin-bottom: 3.2rem;
+	margin-bottom: 4.2rem;
 }
 
 /* .products-card-content .primary-btn {
