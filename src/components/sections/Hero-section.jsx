@@ -3,7 +3,7 @@ import CtaBtn from "../CTA-Btn";
 
 function HeroSection() {
 	return (
-		<div className="hero-section">
+		<section className="hero-section">
 			<div className="hero-section-container container">
 				<div className="hero-section-content">
 					<h1>Uniformes profissionais de alta qualidade</h1>
@@ -22,7 +22,7 @@ function HeroSection() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

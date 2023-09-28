@@ -435,6 +435,8 @@ body {
 	overflow-x: hidden;
 }
 
+/***** Fades *****/
+
 .clients-list-box::before,
 .clients-list-box::after {
 	content: "";
@@ -467,6 +469,8 @@ body {
 		rgba(255, 255, 255, 0) 100%
 	);
 }
+
+/*****************/
 
 .clients-list {
 	list-style-type: none;
@@ -607,6 +611,8 @@ body {
 /***************************************/
 
 .process-section {
+	position: relative;
+
 	margin: 12rem 0;
 	padding: 12rem 0;
 

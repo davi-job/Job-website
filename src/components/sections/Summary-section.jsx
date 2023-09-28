@@ -2,7 +2,7 @@ import CtaBtn from "../CTA-Btn";
 
 function SummarySection() {
 	return (
-		<div className="summary-section">
+		<section className="summary-section">
 			<div className="summary-section-container container grid grid--2-cols">
 				<div className="summary-section-text">
 					<h2 className="heading-secondary">JOB UNIFORMES</h2>
@@ -17,7 +17,7 @@ function SummarySection() {
 
 				<div className="summary-section-image-box"></div>
 			</div>
-		</div>
+		</section>
 	);
 }
 
