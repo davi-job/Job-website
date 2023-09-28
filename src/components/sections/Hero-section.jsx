@@ -1,5 +1,5 @@
-import PrimaryBtn from "./Primary-Btn";
-import SecondaryBtn from "./secondary-Btn";
+import SecondaryBtn from "../Secondary-Btn";
+import CtaBtn from "../CTA-Btn";
 
 function HeroSection() {
 	return (
@@ -17,7 +17,7 @@ function HeroSection() {
 					</p>
 
 					<div className="hero-btns flex">
-						<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
+						<CtaBtn>Faça seu orçamento</CtaBtn>
 						<SecondaryBtn>Saiba mais</SecondaryBtn>
 					</div>
 				</div>

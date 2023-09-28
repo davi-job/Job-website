@@ -1,4 +1,4 @@
-import PrimaryBtn from "./Primary-Btn";
+import CtaBtn from "../CTA-Btn";
 
 function navHandleClick(event) {
 	document.querySelectorAll(".header-nav-link").forEach((link) => {
@@ -21,13 +21,13 @@ function Header() {
 						<button className="header-logo-btn" href="#">
 							<img
 								className="header-logo-img"
-								src="../public/job-logo.png"
+								src="src/images/job-logo.png"
 								alt="job uniformes logo"
 							/>
 						</button>
 					</div>
 
-					<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
+					<CtaBtn>Faça seu orçamento</CtaBtn>
 				</div>
 			</div>
 
@@ -45,6 +45,7 @@ function Header() {
 								Home
 							</a>
 						</li>
+
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
@@ -56,17 +57,7 @@ function Header() {
 								Uniformes
 							</a>
 						</li>
-						<li className="header-nav-item">
-							<a
-								className="header-nav-link"
-								href="#"
-								onClick={(event) => {
-									navHandleClick(event);
-								}}
-							>
-								Contato
-							</a>
-						</li>
+
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
@@ -76,6 +67,18 @@ function Header() {
 								}}
 							>
 								Quem somos
+							</a>
+						</li>
+
+						<li className="header-nav-item">
+							<a
+								className="header-nav-link"
+								href="#"
+								onClick={(event) => {
+									navHandleClick(event);
+								}}
+							>
+								Medidas
 							</a>
 						</li>
 					</ul>
