@@ -1,4 +1,4 @@
-import PrimaryBtn from "../Primary-Btn";
+import CtaBtn from "../CTA-Btn";
 
 function SummarySection() {
 	return (
@@ -12,7 +12,7 @@ function SummarySection() {
 						inovação a cada pedido.
 					</p>
 
-					<PrimaryBtn>Faça seu orçamento</PrimaryBtn>
+					<CtaBtn>Faça seu orçamento</CtaBtn>
 				</div>
 
 				<div className="summary-section-image-box"></div>
