@@ -3,7 +3,7 @@ function TestimonialsSection() {
 		<section className="testimonials-section">
 			<div className="testimonials-section-container container flex">
 				<h2 className="testimonials-section-title heading-secondary">
-					Testemunhos
+					Depoimentos dos nossos parceiros
 				</h2>
 
 				<div className="testimonial-cards-box grid grid--2-cols">
