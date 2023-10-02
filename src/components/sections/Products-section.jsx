@@ -3,7 +3,7 @@ import PrimaryBtn from "../Primary-Btn";
 function ProductsSection() {
 	return (
 		<section className="products-section">
-			<div className="products-section-container container">
+			<div className="products-section-container container flex">
 				<h2 className="products-section-title heading-secondary">
 					Conheça nossos produtos
 				</h2>
