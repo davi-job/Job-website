@@ -1,5 +1,5 @@
-import SecondaryBtn from "../Secondary-Btn";
 import CtaBtn from "../CTA-Btn";
+import SecondaryBtn from "../Secondary-Btn";
 
 function HeroSection() {
 	return (
