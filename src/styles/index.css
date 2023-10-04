@@ -1,7 +1,7 @@
 :root {
 	/* Colors */
 
-	--primary-color: #2e3092;
+	--primary-color: #213885;
 	--secondary-color: #0874b8;
 	--accent-color: #ffee00;
 
@@ -30,7 +30,7 @@
 html {
 	font-size: 62.5%;
 	font-weight: 400;
-	font-family: sans-serif;
+	font-family: "Roboto", sans-serif;
 
 	overflow-x: hidden;
 	max-width: 100vw;
@@ -111,6 +111,8 @@ body {
 }
 
 .heading-secondary {
+	font-family: "Trip Sans", "Roboto", sans-serif;
+
 	display: inline-block;
 
 	font-size: 3.8rem;
@@ -427,7 +429,7 @@ body {
 	border-color: var(--text);
 
 	font-size: 1.8rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .clients-list-box {
@@ -600,7 +602,7 @@ body {
 .products-card-text {
 	font-size: 1.8rem;
 
-	line-height: 1.35;
+	line-height: 1.25;
 	letter-spacing: -0.25px;
 
 	margin-bottom: 4.2rem;
@@ -841,4 +843,120 @@ body {
 	background-color: var(--primary-color);
 
 	color: var(--white);
+}
+
+/**************************************/
+/*************** FOOTER ***************/
+/**************************************/
+
+.footer {
+	padding: 8rem 18rem 1rem;
+
+	background-image: linear-gradient(
+		135deg,
+		rgba(189, 221, 241, 1) 0%,
+		rgba(118, 168, 199, 1) 100%
+	);
+}
+
+.footer-main-container {
+	width: 100%;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-logo {
+	width: 24rem;
+
+	margin-bottom: 3.2rem;
+}
+
+.footer-cta-btn {
+	align-self: center;
+
+	scale: 1.25;
+
+	background-color: var(--primary-color);
+}
+
+.footer-cta-btn:hover {
+	background-color: var(--secondary-color);
+}
+
+.footer-nav-list {
+	list-style-type: none;
+	gap: 3.2rem;
+}
+
+.footer-nav-link {
+	text-decoration: none;
+
+	color: var(--primary-color);
+
+	font-size: 1.8rem;
+	font-weight: 700;
+
+	transition: all 0.2s ease-in-out;
+}
+
+.footer-nav-item {
+	padding: 0 0.8rem 0.4rem;
+
+	border-bottom: 0.1px solid transparent;
+
+	transition: all 0.1s ease-in-out;
+}
+
+.footer-nav-item.selected,
+.footer-nav-item:hover {
+	padding: 0 0.8rem 0.1rem;
+
+	border-bottom: 3px solid var(--primary-color);
+}
+
+.footer-nav-link:active {
+	color: var(--primary-color);
+}
+
+.footer-bottom-container {
+	width: 100%;
+
+	margin-top: 8rem;
+
+	border-top: 1px solid var(--primary-color);
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-socials {
+	list-style-type: none;
+	gap: 3.2rem;
+
+	margin-top: 3.2rem;
+}
+
+.footer-social-item {
+	display: inline-block;
+
+	font-size: 3.2rem;
+}
+
+.footer-social-icon {
+	color: var(--primary-color);
+
+	transition: all 0.2s ease-in-out;
+}
+
+.footer-social-item:hover .footer-social-icon {
+	color: var(--secondary-color);
+
+	scale: 1.15;
+}
+
+.footer-copy {
+	font-size: 1.4rem;
+
+	color: var(--primary-color);
 }

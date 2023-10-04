@@ -5,6 +5,7 @@ import ProcessSection from "../components/sections/Process-section";
 import ProductsSection from "../components/sections/Products-section";
 import SummarySection from "../components/sections/Summary-section";
 import TestimonialsSection from "../components/sections/Testimonials-section";
+import Footer from "../components/sections/Footer";
 
 function HomePage() {
 	return (
@@ -16,6 +17,7 @@ function HomePage() {
 			<ProcessSection />
 			<TestimonialsSection />
 			<AwardsSection />
+			<Footer />
 		</>
 	);
 }
