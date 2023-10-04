@@ -9,10 +9,6 @@ function navHandleClick(event) {
 }
 
 function Header() {
-	const headerNavLinks = document.querySelectorAll(".header-nav-link");
-
-	/////////////////////////////////////////////////////////////////////////////////////////////////
-
 	return (
 		<header className="header">
 			<div className="header-main-container-wrapper">
