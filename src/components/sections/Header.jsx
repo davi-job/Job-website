@@ -1,14 +1,10 @@
+import { Link } from "react-router-dom";
 import CtaBtn from "../CTA-Btn";
-
-function navHandleClick(event) {
-	document.querySelectorAll(".header-nav-link").forEach((link) => {
-		link.parentElement.classList.remove("selected");
-	});
-
-	event.currentTarget.parentElement.classList.add("selected");
-}
+import { useState } from "react";
 
 function Header() {
+	const [pageIndex, setPageIndex] = useState(0);
+
 	return (
 		<header className="header">
 			<div className="header-main-container-wrapper">
@@ -30,52 +26,63 @@ function Header() {
 			<div className="header-nav-container container flex">
 				<nav className="header-nav">
 					<ul className="header-nav-list flex">
-						<li className="header-nav-item selected">
-							<a
+						<li
+							className={`header-nav-item ${
+								pageIndex === 0 ? "selected" : ""
+							}`}
+						>
+							<Link
 								className="header-nav-link"
-								href="#"
-								onClick={(event) => {
-									navHandleClick(event);
+								to={"/"}
+								onClick={() => {
+									setPageIndex(0);
 								}}
 							>
 								Home
-							</a>
+							</Link>
 						</li>
 
-						<li className="header-nav-item">
-							<a
+						<li
+							className={`header-nav-item ${
+								pageIndex === 1 ? "selected" : ""
+							}`}
+						>
+							<Link
 								className="header-nav-link"
-								href="#"
-								onClick={(event) => {
-									navHandleClick(event);
+								to={"/produtos"}
+								onClick={() => {
+									setPageIndex(1);
 								}}
 							>
 								Uniformes
-							</a>
+							</Link>
 						</li>
 
 						<li className="header-nav-item">
 							<a
 								className="header-nav-link"
-								href="#"
-								onClick={(event) => {
-									navHandleClick(event);
-								}}
+								target="_blank"
+								href="https://workwear.cedro.com.br/blog/"
+								onClick={() => {}}
 							>
-								Quem somos
+								Blog Cedro
 							</a>
 						</li>
 
-						<li className="header-nav-item">
-							<a
+						<li
+							className={`header-nav-item ${
+								pageIndex === 3 ? "selected" : ""
+							}`}
+						>
+							<Link
 								className="header-nav-link"
-								href="#"
-								onClick={(event) => {
-									navHandleClick(event);
+								to={"/medidas"}
+								onClick={() => {
+									setPageIndex(3);
 								}}
 							>
 								Medidas
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</nav>

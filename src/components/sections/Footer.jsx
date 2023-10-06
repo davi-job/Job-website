@@ -4,7 +4,7 @@ function Footer({ className }) {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className={"footer " + className}>
+		<footer className={className ? `footer ${className}` : "footer"}>
 			<div className="footer-main-container flex">
 				<div className="footer-logo-nav-box">
 					<img

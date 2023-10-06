@@ -1,12 +1,10 @@
 import CedroSection from "../components/sections/Cedro-section";
+import ProductsShowcaseSection from "../components/sections/Products-showcase-section";
 
 function ProductsPage({ className }) {
 	return (
-		<main
-			className={
-				className ? `products-page ${className}` : "products-page"
-			}
-		>
+		<main className={`products-page ${className ? className : ""}`}>
+			<ProductsShowcaseSection />
 			<CedroSection />
 		</main>
 	);
