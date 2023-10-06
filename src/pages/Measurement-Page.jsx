@@ -2,11 +2,7 @@ import MeasurementSection from "../components/sections/Measurement-section";
 
 function MeasurementPage({ className }) {
 	return (
-		<main
-			className={
-				className ? `measurement-page ` + className : `measurement-page`
-			}
-		>
+		<main className={`measurement-page page ${className ? className : ""}`}>
 			<MeasurementSection />
 		</main>
 	);

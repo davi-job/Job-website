@@ -8,7 +8,7 @@ import TestimonialsSection from "../components/sections/Testimonials-section";
 
 function HomePage({ className }) {
 	return (
-		<main className={className ? `home-page ${className}` : "home-page"}>
+		<main className={`home-page page ${className ? className : ""}`}>
 			<HeroSection />
 			<SummarySection />
 			<ClientsSection />

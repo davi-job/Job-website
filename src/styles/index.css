@@ -50,6 +50,32 @@ body {
 	color: var(--text);
 }
 
+.page {
+	opacity: 0;
+	pointer-events: none;
+	visibility: hidden;
+
+	position: absolute;
+
+	transform: translateY(100vh);
+
+	height: 0rem;
+
+	transition: all 0.5s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.page.page-selected {
+	opacity: 1;
+	pointer-events: auto;
+	visibility: visible;
+
+	height: auto;
+
+	transform: translateY(0);
+
+	position: initial;
+}
+
 /***************************************/
 /*************** UTILITY ***************/
 /***************************************/

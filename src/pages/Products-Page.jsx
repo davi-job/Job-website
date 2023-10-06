@@ -3,11 +3,7 @@ import ProductsShowcaseSection from "../components/sections/Products-showcase-se
 
 function ProductsPage({ className }) {
 	return (
-		<main
-			className={
-				className ? `products-page ${className}` : "products-page"
-			}
-		>
+		<main className={`products-page page ${className ? className : ""}`}>
 			<ProductsShowcaseSection />
 			<CedroSection />
 		</main>
