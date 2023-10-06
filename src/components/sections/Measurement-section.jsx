@@ -23,7 +23,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Manequim Masculino.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social</span>
@@ -38,7 +38,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Manequim Masculino - plus size.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social - Plus size</span>
@@ -61,7 +61,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Manequim Feminino.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social</span>
@@ -76,7 +76,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Manequim Feminino - plus size.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social - Plus size</span>
@@ -91,7 +91,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Blazers.pdf"
 								target="_blank"
 							>
 								<span>Blazer</span>
@@ -106,7 +106,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Vestidos.pdf"
 								target="_blank"
 							>
 								<span>Vestido</span>
@@ -127,7 +127,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Malhas.pdf"
 								target="_blank"
 							>
 								<span>Malhas</span>
@@ -142,7 +142,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Coletes.pdf"
 								target="_blank"
 							>
 								<span>Colete</span>
@@ -157,7 +157,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Macacões.pdf"
 								target="_blank"
 							>
 								<span>Macacão</span>
@@ -172,7 +172,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="#"
+								href="src\PDFs\Measurement Tables\Conjuntos Profissionais.pdf"
 								target="_blank"
 							>
 								<span>Conjunto camisa e calça</span>

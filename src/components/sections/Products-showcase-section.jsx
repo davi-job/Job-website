@@ -35,7 +35,7 @@ const products = [
 ];
 
 function ProductsShowcaseSection({ className }) {
-	const [productIndex, setProductIndex] = useState(1);
+	const [productIndex, setProductIndex] = useState(0);
 
 	return (
 		<div

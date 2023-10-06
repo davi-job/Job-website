@@ -256,6 +256,11 @@ body {
 	font-weight: 700;
 
 	transition: all 0.2s ease-in-out;
+
+	background-color: transparent;
+	border: none;
+
+	cursor: pointer;
 }
 
 .header-nav-item {
