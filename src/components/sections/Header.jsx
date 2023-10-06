@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CtaBtn from "../CTA-Btn";
 import { useState } from "react";
 
@@ -30,14 +31,15 @@ function Header() {
 								pageIndex === 0 ? "selected" : ""
 							}`}
 						>
-							<button
+							<Link
 								className="header-nav-link"
+								to={"/"}
 								onClick={() => {
 									setPageIndex(0);
 								}}
 							>
 								Home
-							</button>
+							</Link>
 						</li>
 
 						<li
@@ -45,14 +47,15 @@ function Header() {
 								pageIndex === 1 ? "selected" : ""
 							}`}
 						>
-							<button
+							<Link
 								className="header-nav-link"
+								to={"/produtos"}
 								onClick={() => {
 									setPageIndex(1);
 								}}
 							>
 								Uniformes
-							</button>
+							</Link>
 						</li>
 
 						<li className="header-nav-item">
@@ -71,14 +74,15 @@ function Header() {
 								pageIndex === 3 ? "selected" : ""
 							}`}
 						>
-							<button
+							<Link
 								className="header-nav-link"
+								to={"/medidas"}
 								onClick={() => {
 									setPageIndex(3);
 								}}
 							>
 								Medidas
-							</button>
+							</Link>
 						</li>
 					</ul>
 				</nav>
