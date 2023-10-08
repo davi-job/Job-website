@@ -15,7 +15,7 @@ function App() {
 
 			<Routes location={location} key={location.pathname}>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/produtos" element={<ProductsPage />} />
+				<Route path="/uniformes" element={<ProductsPage />} />
 				<Route path="/medidas" element={<MeasurementPage />} />
 			</Routes>
 
