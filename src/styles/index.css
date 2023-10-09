@@ -124,6 +124,85 @@ body {
 	padding: 0 1.8rem var(--heading-secondary-line-height);
 }
 
+.lazy-img-box {
+	background-image: linear-gradient(
+		135deg,
+		rgba(189, 221, 241, 1) 0%,
+		rgba(118, 168, 199, 1) 100%
+	);
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	filter: blur(3px);
+
+	overflow: hidden;
+}
+
+.lazy-img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+	object-position: center;
+
+	opacity: 0;
+
+	transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-img-box.loaded > .lazy-img {
+	opacity: 1;
+}
+
+.lazy-img-box::before {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgb(255, 255, 255);
+
+	opacity: 0;
+
+	animation: pulse 1.5s ease-in-out infinite;
+}
+
+.lazy-img-box.loaded {
+	filter: blur(0);
+}
+
+.lazy-img-box.loaded::before {
+	animation: none;
+	content: none;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.debug-page {
+	flex-direction: column;
+	gap: 3.2rem;
+
+	align-items: center;
+
+	margin: 12rem;
+}
+
 /***************************************/
 /*************** BUTTONS ***************/
 /***************************************/
@@ -430,8 +509,7 @@ body {
 	width: 100%;
 	height: 100%;
 
-	object-fit: cover;
-	object-position: center;
+	background-image: url("../images/hero-bg-small.jpg");
 
 	z-index: -1;
 }
@@ -541,16 +619,14 @@ body {
 	color: var(--text);
 }
 
-.summary-section-image-box {
+.summary-section-image {
 	width: 35rem;
 	aspect-ratio: 1/1;
 
 	border-radius: 1.8rem;
 
-	background-image: url(../images/summary-img.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	object-fit: cover;
+	object-position: center;
 
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
@@ -999,7 +1075,7 @@ body {
 /*************** Content ***************/
 
 .products-showcase-section {
-	margin: 10rem 0 28rem;
+	margin: 6rem 0 32rem;
 }
 
 .products-showcase-section-container {

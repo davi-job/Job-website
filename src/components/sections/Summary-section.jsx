@@ -1,4 +1,5 @@
 import CtaBtn from "../CTA-Btn";
+import LazyImg from "../Lazy-Img";
 
 function SummarySection({ summaryRef }) {
 	return (
@@ -15,7 +16,13 @@ function SummarySection({ summaryRef }) {
 					<CtaBtn>Faça seu orçamento</CtaBtn>
 				</div>
 
-				<div className="summary-section-image-box"></div>
+				<div className="summary-section-image-box">
+					<LazyImg
+						src="/src/images/summary-img.jpg"
+						alt="summary-img"
+						className="summary-section-image"
+					/>
+				</div>
 			</div>
 		</section>
 	);

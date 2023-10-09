@@ -1,3 +1,5 @@
+import LazyImg from "../Lazy-Img";
+
 function CedroSection() {
 	return (
 		<section className="cedro-section">
@@ -28,7 +30,7 @@ function CedroSection() {
 						Confira o catálogo de cores e tecidos da Cedro &rarr;
 					</a>
 
-					<img
+					<LazyImg
 						src="src\images\cedro-workwear.jpeg"
 						alt="cedro workwear"
 						className="cedro-section-content-img"

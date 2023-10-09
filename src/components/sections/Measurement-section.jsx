@@ -1,4 +1,5 @@
 import CtaBtn from "../CTA-Btn";
+import LazyImg from "../Lazy-Img";
 
 function MeasurementSection({ className }) {
 	return (
@@ -188,7 +189,7 @@ function MeasurementSection({ className }) {
 			</div>
 
 			<div className="measurement-image-container container flex">
-				<img
+				<LazyImg
 					src="src\images\Medidas.jpeg"
 					alt="how to take measurements"
 					className="measurement-image"
