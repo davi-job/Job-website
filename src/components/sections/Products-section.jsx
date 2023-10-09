@@ -1,5 +1,6 @@
-import PrimaryBtn from "../Primary-Btn";
 import { Link } from "react-router-dom";
+
+import LazyImg from "../Lazy-Img";
 
 function ProductsSection() {
 	return (
@@ -11,7 +12,7 @@ function ProductsSection() {
 
 				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box flex">
-						<img
+						<LazyImg
 							className="products-card-image"
 							src="https://source.unsplash.com/random/800x1040"
 							alt="hero"
@@ -41,7 +42,7 @@ function ProductsSection() {
 
 				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box">
-						<img
+						<LazyImg
 							className="products-card-image"
 							src="https://source.unsplash.com/random/800x800"
 							alt="hero"
@@ -70,7 +71,7 @@ function ProductsSection() {
 
 				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box">
-						<img
+						<LazyImg
 							className="products-card-image"
 							src="https://source.unsplash.com/random/800x800"
 							alt="hero"
@@ -99,7 +100,7 @@ function ProductsSection() {
 
 				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box">
-						<img
+						<LazyImg
 							className="products-card-image"
 							src="https://source.unsplash.com/random/800x800"
 							alt="hero"
@@ -129,7 +130,7 @@ function ProductsSection() {
 
 				<div className="products-card grid grid--2-cols">
 					<div className="products-card-image-box">
-						<img
+						<LazyImg
 							className="products-card-image"
 							src="https://source.unsplash.com/random/800x800"
 							alt="hero"

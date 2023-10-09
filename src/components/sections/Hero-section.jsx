@@ -1,7 +1,6 @@
 import CtaBtn from "../CTA-Btn";
+import LazyImg from "../Lazy-Img";
 import SecondaryBtn from "../Secondary-Btn";
-
-import { useRef } from "react";
 
 function HeroSection({ summaryRef }) {
 	function scrollToRef(elementRef) {
@@ -13,12 +12,8 @@ function HeroSection({ summaryRef }) {
 
 	return (
 		<section className="hero-section">
-			<div
-				className={`hero-section-bg blurry-img ${
-					isLoaded ? "loaded" : ""
-				}`}
-			>
-				<img
+			<div className="hero-section-bg">
+				<LazyImg
 					src="src/images/hero-bg.jpg"
 					alt="Hero background"
 					className="hero-bg-img"

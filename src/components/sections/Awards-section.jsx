@@ -1,3 +1,5 @@
+import LazyImg from "../Lazy-Img";
+
 function AwardsSection() {
 	return (
 		<section className="awards-section">
@@ -7,8 +9,8 @@ function AwardsSection() {
 				</h2>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img"
+					<LazyImg
+						className="award-LazyImg"
 						src="src\images\Awards\c5.webp"
 						alt="Award"
 					/>
@@ -16,8 +18,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img"
+					<LazyImg
+						className="award-LazyImg"
 						src="src\images\Awards\DG.webp"
 						alt="Award"
 					/>
@@ -25,8 +27,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img"
+					<LazyImg
+						className="award-LazyImg"
 						src="src\images\Awards\MPE.webp"
 						alt="Award"
 					/>
@@ -34,8 +36,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img"
+					<LazyImg
+						className="award-LazyImg"
 						src="src\images\Awards\SEBRAE.webp"
 						alt="Award"
 					/>
@@ -43,8 +45,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img long"
+					<LazyImg
+						className="award-LazyImg long"
 						src="src\images\Awards\BANCO NORDESTE.webp"
 						alt="Award"
 					/>
@@ -52,8 +54,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img long"
+					<LazyImg
+						className="award-LazyImg long"
 						src="src\images\Awards\c1.webp"
 						alt="Award"
 					/>
@@ -63,8 +65,8 @@ function AwardsSection() {
 				</div>
 
 				<div className="awards-section-card">
-					<img
-						className="award-img long"
+					<LazyImg
+						className="award-LazyImg long"
 						src="src\images\Awards\COMPE.webp"
 						alt="Award"
 					/>
