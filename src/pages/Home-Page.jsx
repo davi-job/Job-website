@@ -6,11 +6,15 @@ import ProductsSection from "../components/sections/Products-section";
 import SummarySection from "../components/sections/Summary-section";
 import TestimonialsSection from "../components/sections/Testimonials-section";
 
+import { useRef } from "react";
+
 function HomePage({ className }) {
+	const summaryRef = useRef(null);
+
 	return (
 		<main className={`home-page ${className ? className : ""}`}>
-			<HeroSection />
-			<SummarySection />
+			<HeroSection summaryRef={summaryRef} />
+			<SummarySection summaryRef={summaryRef} />
 			<ClientsSection />
 			<ProductsSection />
 			<ProcessSection />

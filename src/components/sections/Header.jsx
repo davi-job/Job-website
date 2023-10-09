@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom";
 import CtaBtn from "../CTA-Btn";
-import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 function Header() {
-	const [pageIndex, setPageIndex] = useState(0);
+	const location = useLocation();
 
 	return (
 		<header className="header">
 			<div className="header-main-container-wrapper">
 				<div className="header-main-container container flex">
 					<div className="header-logo-box">
-						<button className="header-logo-btn" href="#">
+						<Link className="header-logo-btn" to={"/"}>
 							<img
 								className="header-logo-img"
 								src="src/images/job-logo.png"
 								alt="job uniformes logo"
 							/>
-						</button>
+						</Link>
 					</div>
 
 					<CtaBtn>Faça seu orçamento</CtaBtn>
@@ -28,32 +28,22 @@ function Header() {
 					<ul className="header-nav-list flex">
 						<li
 							className={`header-nav-item ${
-								pageIndex === 0 ? "selected" : ""
+								location.pathname === "/" ? "selected" : ""
 							}`}
 						>
-							<Link
-								className="header-nav-link"
-								to={"/"}
-								onClick={() => {
-									setPageIndex(0);
-								}}
-							>
+							<Link className="header-nav-link" to={"/"}>
 								Home
 							</Link>
 						</li>
 
 						<li
 							className={`header-nav-item ${
-								pageIndex === 1 ? "selected" : ""
+								location.pathname === "/uniformes"
+									? "selected"
+									: ""
 							}`}
 						>
-							<Link
-								className="header-nav-link"
-								to={"/produtos"}
-								onClick={() => {
-									setPageIndex(1);
-								}}
-							>
+							<Link className="header-nav-link" to={"/uniformes"}>
 								Uniformes
 							</Link>
 						</li>
@@ -63,7 +53,6 @@ function Header() {
 								className="header-nav-link"
 								target="_blank"
 								href="https://workwear.cedro.com.br/blog/"
-								onClick={() => {}}
 							>
 								Blog Cedro
 							</a>
@@ -71,16 +60,12 @@ function Header() {
 
 						<li
 							className={`header-nav-item ${
-								pageIndex === 3 ? "selected" : ""
+								location.pathname === "/medidas"
+									? "selected"
+									: ""
 							}`}
 						>
-							<Link
-								className="header-nav-link"
-								to={"/medidas"}
-								onClick={() => {
-									setPageIndex(3);
-								}}
-							>
+							<Link className="header-nav-link" to={"/medidas"}>
 								Medidas
 							</Link>
 						</li>

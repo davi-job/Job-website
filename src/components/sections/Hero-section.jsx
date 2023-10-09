@@ -1,9 +1,30 @@
 import CtaBtn from "../CTA-Btn";
 import SecondaryBtn from "../Secondary-Btn";
 
-function HeroSection() {
+import { useRef } from "react";
+
+function HeroSection({ summaryRef }) {
+	function scrollToRef(elementRef) {
+		window.scrollTo({
+			top: elementRef.current.offsetTop - 120,
+			behavior: "smooth",
+		});
+	}
+
 	return (
 		<section className="hero-section">
+			<div
+				className={`hero-section-bg blurry-img ${
+					isLoaded ? "loaded" : ""
+				}`}
+			>
+				<img
+					src="src/images/hero-bg.jpg"
+					alt="Hero background"
+					className="hero-bg-img"
+				/>
+			</div>
+
 			<div className="hero-section-container container">
 				<div className="hero-section-content">
 					<h1>Uniformes profissionais de alta qualidade</h1>
@@ -18,7 +39,9 @@ function HeroSection() {
 
 					<div className="hero-btns flex">
 						<CtaBtn>Faça seu orçamento</CtaBtn>
-						<SecondaryBtn>Saiba mais</SecondaryBtn>
+						<SecondaryBtn onClick={() => scrollToRef(summaryRef)}>
+							Saiba mais
+						</SecondaryBtn>
 					</div>
 				</div>
 			</div>
