@@ -1,8 +1,8 @@
 import CtaBtn from "../CTA-Btn";
 
-function SummarySection() {
+function SummarySection({ summaryRef }) {
 	return (
-		<section className="summary-section">
+		<section ref={summaryRef} className="summary-section">
 			<div className="summary-section-container container grid grid--2-cols">
 				<div className="summary-section-text">
 					<h2 className="heading-secondary">JOB UNIFORMES</h2>

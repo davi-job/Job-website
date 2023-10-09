@@ -1,4 +1,5 @@
 import PrimaryBtn from "../Primary-Btn";
+import { Link } from "react-router-dom";
 
 function ProductsSection() {
 	return (
@@ -32,7 +33,9 @@ function ProductsSection() {
 							adaptadas às suas necessidades.
 						</p>
 
-						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+						<Link className="primary-btn" to={"/uniformes"}>
+							VEJA MAIS
+						</Link>
 					</div>
 				</div>
 
@@ -59,7 +62,9 @@ function ProductsSection() {
 							pessoal.
 						</p>
 
-						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+						<Link className="primary-btn" to={"/uniformes"}>
+							VEJA MAIS
+						</Link>
 					</div>
 				</div>
 
@@ -86,7 +91,9 @@ function ProductsSection() {
 							proteção é nossa prioridade.
 						</p>
 
-						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+						<Link className="primary-btn" to={"/uniformes"}>
+							VEJA MAIS
+						</Link>
 					</div>
 				</div>
 
@@ -114,7 +121,9 @@ function ProductsSection() {
 							destacar no ambiente de trabalho.
 						</p>
 
-						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+						<Link className="primary-btn" to={"/uniformes"}>
+							VEJA MAIS
+						</Link>
 					</div>
 				</div>
 
@@ -143,7 +152,9 @@ function ProductsSection() {
 							elegância.
 						</p>
 
-						<PrimaryBtn>VEJA MAIS</PrimaryBtn>
+						<Link className="primary-btn" to={"/uniformes"}>
+							VEJA MAIS
+						</Link>
 					</div>
 				</div>
 			</div>

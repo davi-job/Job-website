@@ -10,13 +10,13 @@ function Header() {
 			<div className="header-main-container-wrapper">
 				<div className="header-main-container container flex">
 					<div className="header-logo-box">
-						<button className="header-logo-btn" href="#">
+						<Link className="header-logo-btn" to={"/"}>
 							<img
 								className="header-logo-img"
 								src="src/images/job-logo.png"
 								alt="job uniformes logo"
 							/>
-						</button>
+						</Link>
 					</div>
 
 					<CtaBtn>Faça seu orçamento</CtaBtn>
