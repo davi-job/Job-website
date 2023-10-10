@@ -31,9 +31,10 @@ function CedroSection() {
 					</a>
 
 					<LazyImg
-						src="src\images\cedro-workwear.jpeg"
+						src="src\images\cedro-workwear.png"
 						alt="cedro workwear"
 						className="cedro-section-content-img"
+						hasSmall={true}
 					/>
 				</div>
 			</div>

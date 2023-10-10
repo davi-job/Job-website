@@ -1,0 +1,141 @@
+/****************************************/
+/*************** ALT HERO ***************/
+/****************************************/
+
+.alt-hero-section {
+	width: 100vw;
+
+	/* background-color: rgba(189, 221, 241, 1); */
+}
+
+.alt-hero-container {
+	position: relative;
+
+	height: 80svh;
+}
+
+.alt-hero-text-box {
+	position: absolute;
+
+	top: 40%;
+	left: 50%;
+	translate: -50% -50%;
+
+	text-align: center;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	animation: slideUpIn 750ms ease-in-out forwards;
+}
+
+@keyframes slideUpIn {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.alt-hero-title {
+	font-size: 5.2rem;
+	font-weight: 700;
+
+	max-width: 87%;
+
+	line-height: 1.1;
+	letter-spacing: -0.75px;
+
+	margin-bottom: 2.4rem;
+}
+
+.alt-hero-description {
+	font-size: 1.8rem;
+
+	line-height: 1.5;
+	letter-spacing: -0.5px;
+
+	margin-bottom: 1.8rem;
+}
+
+.alt-hero-text-box .alt-hero-secondary-btn {
+	color: #444;
+}
+
+.alt-hero-text-box .alt-hero-secondary-btn:hover {
+	color: #222;
+}
+
+.alt-hero-img {
+	position: absolute;
+
+	border-radius: 18px;
+
+	top: 0;
+	left: 0;
+	translate: -50% -50%;
+
+	width: 32rem;
+	aspect-ratio: 16/10.5;
+
+	opacity: 0;
+
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+
+	border: 1px solid rgba(0, 0, 0, 0.25);
+
+	animation: slideUpIn 750ms ease-in-out 400ms forwards,
+		float 4s ease-in-out 1.3s infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+
+	50% {
+		transform: translateY(-8px);
+		box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.alt-hero-img:nth-child(2) {
+	top: 72%;
+	left: 18%;
+
+	animation: slideUpIn 750ms ease-in-out 400ms forwards,
+		float 4s ease-in-out 1.2s infinite;
+}
+
+.alt-hero-img:nth-child(3) {
+	top: 22%;
+	left: 4%;
+
+	animation: slideUpIn 750ms ease-in-out 550ms forwards,
+		float 4.5s ease-in-out 1.3s infinite;
+}
+
+.alt-hero-img:nth-child(4) {
+	top: 19%;
+	left: 94%;
+
+	animation: slideUpIn 750ms ease-in-out 700ms forwards,
+		float 3.5s ease-in-out 1.5s infinite;
+}
+
+.alt-hero-img:nth-child(5) {
+	top: 63%;
+	left: 88%;
+
+	animation: slideUpIn 750ms ease-in-out 850ms forwards,
+		float 3s ease-in-out 1.6s infinite;
+}

@@ -92,6 +92,7 @@ function Footer({ className }) {
 								></ion-icon>
 							</a>
 						</li>
+
 						<li className="footer-social-item">
 							<a
 								href="https://www.instagram.com/jobroupasprofissionais/"
@@ -104,6 +105,7 @@ function Footer({ className }) {
 								></ion-icon>
 							</a>
 						</li>
+
 						<li className="footer-social-item">
 							<a
 								href="https://br.linkedin.com/company/job-roupas-profissionais"
