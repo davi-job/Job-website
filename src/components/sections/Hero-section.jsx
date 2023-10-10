@@ -17,6 +17,8 @@ function HeroSection({ summaryRef }) {
 					src="src/images/hero-bg.jpg"
 					alt="Hero background"
 					className="hero-bg-img"
+					hasSmall={true}
+					smallFileType=".jpg"
 				/>
 			</div>
 

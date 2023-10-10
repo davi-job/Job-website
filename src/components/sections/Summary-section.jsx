@@ -21,6 +21,7 @@ function SummarySection({ summaryRef }) {
 						src="/src/images/summary-img.jpg"
 						alt="summary-img"
 						className="summary-section-image"
+						hasSmall={true}
 					/>
 				</div>
 			</div>

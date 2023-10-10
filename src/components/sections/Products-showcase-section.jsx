@@ -1,6 +1,7 @@
-import { useState } from "react";
 import CTABtn from "../CTA-Btn.jsx";
 import LazyImg from "../Lazy-Img.jsx";
+
+import { useState } from "react";
 
 const products = [
 	{
@@ -41,17 +42,15 @@ function ProductsShowcaseSection({ className }) {
 	const [productIndex, setProductIndex] = useState(0);
 
 	function handleProductIndexChange(index) {
-		let currentIndex = productIndex;
+		let lastIndex = productIndex;
+
 		const productsImg = document.getElementsByClassName(
 			"products-showcase-section-img"
 		)[0];
 
 		setProductIndex(index);
 
-		if (
-			currentIndex !== index &&
-			productsImg.classList.contains("loaded")
-		) {
+		if (lastIndex !== index && productsImg.classList.contains("loaded")) {
 			productsImg.classList.remove("loaded");
 		}
 	}

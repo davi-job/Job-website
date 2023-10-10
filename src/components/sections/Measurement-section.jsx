@@ -193,6 +193,7 @@ function MeasurementSection({ className }) {
 					src="src\images\Medidas.jpeg"
 					alt="how to take measurements"
 					className="measurement-image"
+					hasSmall={true}
 				/>
 
 				<CtaBtn className="measurement-cta-btn">
