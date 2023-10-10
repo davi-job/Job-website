@@ -120,15 +120,15 @@
 	top: 22%;
 	left: 4%;
 
-	animation: slideUpIn 750ms ease-in-out 550ms forwards,
-		float 4.5s ease-in-out 1.3s infinite;
+	animation: slideUpIn 750ms ease-in-out 700ms forwards,
+		float 2.5s ease-in-out 1.3s infinite;
 }
 
 .alt-hero-img:nth-child(4) {
 	top: 19%;
 	left: 94%;
 
-	animation: slideUpIn 750ms ease-in-out 700ms forwards,
+	animation: slideUpIn 750ms ease-in-out 550ms forwards,
 		float 3.5s ease-in-out 1.5s infinite;
 }
 
@@ -138,4 +138,12 @@
 
 	animation: slideUpIn 750ms ease-in-out 850ms forwards,
 		float 3s ease-in-out 1.6s infinite;
+}
+
+/********************************************/
+/*************** ALT PRODUCTS ***************/
+/********************************************/
+
+.alt-products-section {
+	padding: 6.4rem 2.4rem;
 }

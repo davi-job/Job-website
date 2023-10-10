@@ -7,6 +7,7 @@ import SummarySection from "../components/sections/Summary-section";
 import TestimonialsSection from "../components/sections/Testimonials-section";
 
 import AlternativeHero from "../Tests/AlternativeHero";
+import AlternativeProducts from "../Tests/AlternativeProducts";
 
 import { useRef } from "react";
 
@@ -19,7 +20,8 @@ function HomePage({ className }) {
 			<AlternativeHero summaryRef={summaryRef} />
 			<SummarySection summaryRef={summaryRef} />
 			<ClientsSection />
-			<ProductsSection />
+			{/* <ProductsSection /> */}
+			<AlternativeProducts />
 			<ProcessSection />
 			<TestimonialsSection />
 			<AwardsSection />
