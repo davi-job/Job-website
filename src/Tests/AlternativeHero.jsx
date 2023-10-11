@@ -31,6 +31,7 @@ function AlternativeHero({ className, summaryRef }) {
 
 					<div className="hero-btns flex">
 						<CtaBtn>Faça seu orçamento</CtaBtn>
+
 						<SecondaryBtn
 							className="alt-hero-secondary-btn"
 							onClick={() => scrollToRef(summaryRef)}
@@ -63,6 +64,10 @@ function AlternativeHero({ className, summaryRef }) {
 					alt="Hero background"
 					className="alt-hero-img"
 				/>
+
+				<div className="alt-hero-deco-box n1" />
+				<div className="alt-hero-deco-box n2" />
+				<div className="alt-hero-deco-box n3" />
 			</div>
 		</section>
 	);
