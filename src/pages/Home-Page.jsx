@@ -16,15 +16,15 @@ function HomePage({ className }) {
 
 	return (
 		<main className={`home-page ${className ? className : ""}`}>
-			{/* <HeroSection summaryRef={summaryRef} /> */}
-			<AlternativeHero summaryRef={summaryRef} />
+			<HeroSection summaryRef={summaryRef} />
+			{/* <AlternativeHero summaryRef={summaryRef} /> */}
 			<SummarySection summaryRef={summaryRef} />
 			<ClientsSection />
 			{/* <ProductsSection /> */}
 			<AlternativeProducts />
 			<ProcessSection />
 			<TestimonialsSection />
-			<AwardsSection />
+			{/* <AwardsSection /> */}
 		</main>
 	);
 }
