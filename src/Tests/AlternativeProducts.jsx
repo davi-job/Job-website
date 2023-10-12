@@ -16,13 +16,6 @@ function AlternativeProducts({ className }) {
 				<h2 className="alt-products-title heading-secondary">
 					Conheça nossos produtos
 				</h2>
-
-				{/* <Link
-					to="/uniformes"
-					className="alt-products-section-btn primary-btn"
-				>
-					Ver mais
-				</Link> */}
 			</div>
 
 			<div className="alt-products-container container flex">
@@ -34,7 +27,7 @@ function AlternativeProducts({ className }) {
 				>
 					<LazyImg
 						className="alt-products-card-bg-image"
-						src="/src/images/Products/produtos-hospitalar.jpg"
+						src="/src/images/Products/produtos-antichama.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -42,16 +35,15 @@ function AlternativeProducts({ className }) {
 					<div className="alt-products-card-shadow"></div>
 
 					<div className="alt-products-card-content">
-						<h3 className="alt-products-card-title">Hospitalar</h3>
+						<h3 className="alt-products-card-title">Antichama</h3>
 
 						<p className="alt-products-card-text">
-							Oferecemos jalecos, capotes cirúrgicos, camisas e
-							calças cirúrgicas, campos cirúrgicos e enxovais de
-							alta qualidade. Nossas peças são projetadas para
-							profissionais da saúde que exigem o melhor em
-							conforto e desempenho. Conte conosco para
-							vestimentas hospitalares confiáveis e higiênicas,
-							adaptadas às suas necessidades.
+							Nossas camisas, calças e balaclavas antichamas
+							possuem certificação de aprovação técnica (CA) do
+							MTE, garantindo sua segurança no trabalho. Fique
+							tranquilo sabendo que você está vestindo roupas
+							projetadas para resistir a condições adversas. Sua
+							proteção é nossa prioridade.
 						</p>
 					</div>
 				</div>
@@ -93,7 +85,7 @@ function AlternativeProducts({ className }) {
 				>
 					<LazyImg
 						className="alt-products-card-bg-image"
-						src="/src/images/Products/produtos-antichama.jpg"
+						src="/src/images/Products/produtos-hospitalar.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -101,15 +93,16 @@ function AlternativeProducts({ className }) {
 					<div className="alt-products-card-shadow"></div>
 
 					<div className="alt-products-card-content">
-						<h3 className="alt-products-card-title">Antichama</h3>
+						<h3 className="alt-products-card-title">Hospitalar</h3>
 
 						<p className="alt-products-card-text">
-							Nossas camisas, calças e balaclavas antichamas
-							possuem certificação de aprovação técnica (CA) do
-							MTE, garantindo sua segurança no trabalho. Fique
-							tranquilo sabendo que você está vestindo roupas
-							projetadas para resistir a condições adversas. Sua
-							proteção é nossa prioridade.
+							Oferecemos jalecos, capotes cirúrgicos, camisas e
+							calças cirúrgicas, campos cirúrgicos e enxovais de
+							alta qualidade. Nossas peças são projetadas para
+							profissionais da saúde que exigem o melhor em
+							conforto e desempenho. Conte conosco para
+							vestimentas hospitalares confiáveis e higiênicas,
+							adaptadas às suas necessidades.
 						</p>
 					</div>
 				</div>

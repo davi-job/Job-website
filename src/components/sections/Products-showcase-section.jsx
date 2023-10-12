@@ -5,10 +5,11 @@ import { useState } from "react";
 
 const products = [
 	{
-		title: "Uniforme Hospitalar",
-		imageUrl: "src/images/Test imgs/adam-kool-ndN00KmbJ1c-unsplash.jpg",
+		title: "Uniforme Antichama (FR)",
+		imageUrl:
+			"src/images/Test imgs/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg",
 		description:
-			"Os uniformes hospitalares são indicados para clínicas, hospitais, laboratórios e unidades de saúde, confeccionado  com tecidos profissionais técnicos e modernos,  com alto padrão de qualidade e resistência.",
+			"Os uniformes retardantes a chama (FR), são indicados para profissionais que trabalham expostos em áreas de risco de fogo repentino e arco elétrico, com tecidos especialmente desenvolvidos com alta tecnologia, além de passar por um rigoroso teste de aprovação, oferecendo mais segurança e proteção no ambiente de trabalho.",
 	},
 	{
 		title: "Uniforme Social",
@@ -17,11 +18,10 @@ const products = [
 			"Confeccionados com qualidade e tecnologia, os uniformes sociais são indicados para áreas administrativas, recepção, segurança, limpeza e serviços diversos.",
 	},
 	{
-		title: "Uniforme Antichama (FR)",
-		imageUrl:
-			"src/images/Test imgs/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg",
+		title: "Uniforme Hospitalar",
+		imageUrl: "src/images/Test imgs/adam-kool-ndN00KmbJ1c-unsplash.jpg",
 		description:
-			"Os uniformes retardantes a chama (FR), são indicados para profissionais que trabalham expostos em áreas de risco de fogo repentino e arco elétrico, com tecidos especialmente desenvolvidos com alta tecnologia, além de passar por um rigoroso teste de aprovação, oferecendo mais segurança e proteção no ambiente de trabalho.",
+			"Os uniformes hospitalares são indicados para clínicas, hospitais, laboratórios e unidades de saúde, confeccionado  com tecidos profissionais técnicos e modernos,  com alto padrão de qualidade e resistência.",
 	},
 	{
 		title: "Uniforme Profissional",
@@ -89,7 +89,7 @@ function ProductsShowcaseSection({ className }) {
 								}`}
 								onClick={() => handleProductIndexChange(0)}
 							>
-								Hospitalar
+								Antichama
 							</button>
 						</li>
 
@@ -111,7 +111,7 @@ function ProductsShowcaseSection({ className }) {
 								}`}
 								onClick={() => handleProductIndexChange(2)}
 							>
-								Antichama
+								Hospitalar
 							</button>
 						</li>
 
