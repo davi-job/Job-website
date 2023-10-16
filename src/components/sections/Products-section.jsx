@@ -1,28 +1,94 @@
-import { Link } from "react-router-dom";
-
 import LazyImg from "../Lazy-Img";
 
-function ProductsSection() {
+import { useState } from "react";
+
+function ProductsSection({ className }) {
+	const [activeCard, setActiveCard] = useState(0);
+
 	return (
-		<section className="products-section">
-			<div className="products-section-container container flex">
-				<h2 className="products-section-title heading-secondary">
+		<section className={`products-section  ${className ? className : ""}`}>
+			<div className="container products-section-title flex">
+				<h2 className="products-title heading-secondary">
 					Conheça nossos produtos
 				</h2>
+			</div>
 
-				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box flex">
-						<LazyImg
-							className="products-card-image"
-							src="https://source.unsplash.com/random/800x1040"
-							alt="hero"
-						/>
-					</div>
+			<div className="products-container container flex">
+				<div
+					className={`products-card ${
+						activeCard === 0 ? "active" : ""
+					}`}
+					onClick={() => setActiveCard(0)}
+				>
+					<LazyImg
+						className="products-card-bg-image"
+						src="/src/images/Produtos/produtos-antichama.jpg"
+						alt="hero"
+						hasSmall={true}
+					/>
+
+					<div className="products-card-shadow"></div>
 
 					<div className="products-card-content">
-						<h3 className="products-card-title">
-							<span>Hospitalar</span> com Qualidade Superior
-						</h3>
+						<h3 className="products-card-title">Antichama</h3>
+
+						<p className="products-card-text">
+							Nossas camisas, calças e balaclavas antichamas
+							possuem certificação de aprovação técnica (CA) do
+							MTE, garantindo sua segurança no trabalho. Fique
+							tranquilo sabendo que você está vestindo roupas
+							projetadas para resistir a condições adversas. Sua
+							proteção é nossa prioridade.
+						</p>
+					</div>
+				</div>
+
+				<div
+					className={`products-card ${
+						activeCard === 1 ? "active" : ""
+					}`}
+					onClick={() => setActiveCard(1)}
+				>
+					<LazyImg
+						className="products-card-bg-image"
+						src="/src/images/Produtos/produtos-social.jpg"
+						alt="hero"
+						hasSmall={true}
+					/>
+
+					<div className="products-card-shadow"></div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">Social</h3>
+
+						<p className="products-card-text">
+							Explore nossa variedade de camisas, blusas e calças
+							sociais em diversos tecidos e estilos. Do clássico
+							ao contemporâneo, nossa coleção oferece opções para
+							cada ocasião. Vista-se com estilo e sofisticação em
+							peças que combinam perfeitamente com seu gosto
+							pessoal.
+						</p>
+					</div>
+				</div>
+
+				<div
+					className={`products-card ${
+						activeCard === 2 ? "active" : ""
+					}`}
+					onClick={() => setActiveCard(2)}
+				>
+					<LazyImg
+						className="products-card-bg-image"
+						src="/src/images/Produtos/produtos-hospitalar.jpg"
+						alt="hero"
+						hasSmall={true}
+					/>
+
+					<div className="products-card-shadow"></div>
+
+					<div className="products-card-content">
+						<h3 className="products-card-title">Hospitalar</h3>
 
 						<p className="products-card-text">
 							Oferecemos jalecos, capotes cirúrgicos, camisas e
@@ -33,84 +99,26 @@ function ProductsSection() {
 							vestimentas hospitalares confiáveis e higiênicas,
 							adaptadas às suas necessidades.
 						</p>
-
-						<Link className="primary-btn" to={"/uniformes"}>
-							VEJA MAIS
-						</Link>
 					</div>
 				</div>
 
-				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box">
-						<LazyImg
-							className="products-card-image"
-							src="https://source.unsplash.com/random/800x800"
-							alt="hero"
-						/>
-					</div>
+				<div
+					className={`products-card ${
+						activeCard === 3 ? "active" : ""
+					}`}
+					onClick={() => setActiveCard(3)}
+				>
+					<LazyImg
+						className="products-card-bg-image"
+						src="/src/images/Produtos/produtos-profissional.jpg"
+						alt="hero"
+						hasSmall={true}
+					/>
+
+					<div className="products-card-shadow"></div>
 
 					<div className="products-card-content">
-						<h3 className="products-card-title">
-							Elegância <span>Social</span> Variada
-						</h3>
-
-						<p className="products-card-text">
-							Explore nossa variedade de camisas, blusas e calças
-							sociais em diversos tecidos e estilos. Do clássico
-							ao contemporâneo, nossa coleção oferece opções para
-							cada ocasião. Vista-se com estilo e sofisticação em
-							peças que combinam perfeitamente com seu gosto
-							pessoal.
-						</p>
-
-						<Link className="primary-btn" to={"/uniformes"}>
-							VEJA MAIS
-						</Link>
-					</div>
-				</div>
-
-				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box">
-						<LazyImg
-							className="products-card-image"
-							src="https://source.unsplash.com/random/800x800"
-							alt="hero"
-						/>
-					</div>
-
-					<div className="products-card-content">
-						<h3 className="products-card-title">
-							Proteção <span>Antichama</span> Certificada
-						</h3>
-
-						<p className="products-card-text">
-							Nossas camisas, calças e balaclavas antichamas
-							possuem certificação de aprovação técnica (CA) do
-							MTE, garantindo sua segurança no trabalho. Fique
-							tranquilo sabendo que você está vestindo roupas
-							projetadas para resistir a condições adversas. Sua
-							proteção é nossa prioridade.
-						</p>
-
-						<Link className="primary-btn" to={"/uniformes"}>
-							VEJA MAIS
-						</Link>
-					</div>
-				</div>
-
-				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box">
-						<LazyImg
-							className="products-card-image"
-							src="https://source.unsplash.com/random/800x800"
-							alt="hero"
-						/>
-					</div>
-
-					<div className="products-card-content">
-						<h3 className="products-card-title">
-							Roupas <span>Profissionais</span> de Alta Qualidade
-						</h3>
+						<h3 className="products-card-title">Profissional</h3>
 
 						<p className="products-card-text">
 							Oferecemos uma ampla seleção de camisas, calças,
@@ -121,26 +129,26 @@ function ProductsSection() {
 							combinam funcionalidade e estilo, ajudando você a se
 							destacar no ambiente de trabalho.
 						</p>
-
-						<Link className="primary-btn" to={"/uniformes"}>
-							VEJA MAIS
-						</Link>
 					</div>
 				</div>
 
-				<div className="products-card grid grid--2-cols">
-					<div className="products-card-image-box">
-						<LazyImg
-							className="products-card-image"
-							src="https://source.unsplash.com/random/800x800"
-							alt="hero"
-						/>
-					</div>
+				<div
+					className={`products-card ${
+						activeCard === 4 ? "active" : ""
+					}`}
+					onClick={() => setActiveCard(4)}
+				>
+					<LazyImg
+						className="products-card-bg-image"
+						src="/src/images/Produtos/produtos-malha.jpg"
+						alt="hero"
+						hasSmall={true}
+					/>
+
+					<div className="products-card-shadow"></div>
 
 					<div className="products-card-content">
-						<h3 className="products-card-title">
-							Versatilidade em <span>Malhas</span>
-						</h3>
+						<h3 className="products-card-title">Malha</h3>
 
 						<p className="products-card-text">
 							Descubra nossa coleção de camisas gola polo, gola
@@ -152,10 +160,6 @@ function ProductsSection() {
 							de designs para escolher. Vista-se com confiança e
 							elegância.
 						</p>
-
-						<Link className="primary-btn" to={"/uniformes"}>
-							VEJA MAIS
-						</Link>
 					</div>
 				</div>
 			</div>
