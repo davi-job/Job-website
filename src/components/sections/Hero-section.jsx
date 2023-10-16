@@ -1,6 +1,9 @@
 import CtaBtn from "../CTA-Btn";
-import LazyImg from "../Lazy-Img";
 import SecondaryBtn from "../Secondary-Btn";
+
+import { Carousel } from "react-responsive-carousel";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function HeroSection({ summaryRef }) {
 	function scrollToRef(elementRef) {
@@ -12,15 +15,39 @@ function HeroSection({ summaryRef }) {
 
 	return (
 		<section className="hero-section">
-			<div className="hero-section-bg">
-				<LazyImg
-					src="src/images/hero-bg.jpg"
-					alt="Hero background"
-					className="hero-bg-img"
-					hasSmall={true}
-					smallFileType=".jpg"
-				/>
-			</div>
+			<Carousel
+				className="hero-carousel"
+				swipeable={true}
+				emulateTouch={true}
+				showArrows={false}
+				showStatus={false}
+				showThumbs={false}
+				autoPlay={true}
+				interval={5000}
+				infiniteLoop={true}
+				stopOnHover={false}
+			>
+				<div>
+					<img
+						className="carousel-img"
+						src="/src/images/Hero/hero-1.jpg"
+					/>
+				</div>
+
+				<div>
+					<img
+						className="carousel-img"
+						src="/src/images/Hero/hero-2.jpg"
+					/>
+				</div>
+
+				<div>
+					<img
+						className="carousel-img"
+						src="/src/images/Hero/hero-3.jpg"
+					/>
+				</div>
+			</Carousel>
 
 			<div className="hero-section-container container">
 				<div className="hero-section-content">
