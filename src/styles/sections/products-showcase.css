@@ -1,0 +1,123 @@
+/*************************************************/
+/*************** PRODUCTS SHOWCASE ***************/
+/*************************************************/
+
+/*************** Content ***************/
+
+.products-showcase-section {
+	margin: 6rem 0 32rem;
+}
+
+.products-showcase-section-container {
+	grid-template-columns: 80fr 20fr;
+
+	max-width: 130rem;
+	gap: 9.2rem;
+
+	align-items: center;
+}
+
+.products-showcase-section-content {
+	position: relative;
+}
+
+.products-showcase-section-heading {
+	margin-bottom: 3.2rem;
+	margin-left: 2.4rem;
+
+	padding-bottom: 0.4rem;
+}
+
+.products-showcase-section-img {
+	width: 100%;
+	aspect-ratio: 16/9;
+
+	border-radius: 1.8rem;
+
+	object-fit: cover;
+	object-position: center;
+
+	box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.products-showcase-section-text {
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	translate: -50% 70%;
+
+	width: 80%;
+
+	background-color: var(--background);
+
+	text-align: center;
+
+	font-size: 1.8rem;
+
+	padding: 2.4rem;
+
+	border-radius: 1.4rem;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+
+	box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
+
+	transition: all 0.2s ease-in-out;
+}
+
+/*************** Nav ***************/
+
+.products-showcase-section-nav {
+	flex-direction: column;
+	gap: 3.2rem;
+}
+
+.products-showcase-nav-title {
+	width: 90%;
+
+	font-size: 2rem;
+	font-weight: 700;
+
+	text-align: center;
+
+	padding: 1.2rem 2.4rem;
+
+	border-radius: 8px;
+
+	background-color: var(--primary-color);
+	color: var(--background);
+}
+
+.products-showcase-nav-list {
+	flex-direction: column;
+
+	list-style-type: none;
+	gap: 0.8rem;
+}
+
+.products-showcase-nav-button {
+	padding: 0.8rem 1.6rem;
+
+	font-size: 1.6rem;
+
+	background-color: transparent;
+
+	border: none;
+	border-left: 2px solid var(--primary-color);
+
+	cursor: pointer;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.products-showcase-nav-button:hover,
+.products-showcase-nav-button.selected {
+	background-color: var(--primary-color);
+	color: var(--white);
+}
+
+.products-showcase-section-cta-btn {
+	align-self: flex-start;
+
+	text-align: center;
+	width: 90%;
+}

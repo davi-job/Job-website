@@ -1,0 +1,133 @@
+/****************************************/
+/*************** PRODUCTS ***************/
+/****************************************/
+
+.products-section {
+	padding: 6.4rem 2.4rem;
+}
+
+.products-section-title {
+	text-align: center;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+.products-section-title h2 {
+	margin-bottom: 6.4rem;
+}
+
+.products-section .products-container {
+	gap: 3.2rem;
+
+	align-items: center;
+	justify-content: center;
+}
+
+/*************** Product cards ***************/
+
+.products-card {
+	position: relative;
+
+	overflow: hidden;
+
+	border-radius: 24px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.15);
+
+	overflow: hidden;
+
+	width: 7rem;
+	height: 45rem;
+
+	transition: all 250ms ease-in-out;
+
+	cursor: pointer;
+}
+
+.products-card.active {
+	flex-grow: 1;
+
+	cursor: auto;
+}
+
+.products-card-bg-image {
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	z-index: -2;
+}
+
+.products-card-shadow {
+	position: absolute;
+
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	height: 70%;
+
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.75) 0%,
+		rgba(0, 0, 0, 0) 100%
+	);
+
+	z-index: -1;
+}
+
+.products-card-content {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: end;
+
+	height: 100%;
+	width: 100%;
+
+	padding: 2.4rem;
+
+	color: var(--white);
+}
+
+.products-card-title {
+	font-size: 2.8rem;
+	font-weight: 700;
+
+	margin-bottom: 1.2rem;
+
+	transition: all 300ms ease-in-out;
+}
+
+.products-card-text {
+	margin-bottom: 0.8rem;
+
+	transition: all 300ms ease-in-out 350ms;
+}
+
+/*************** Unactive product cards ***************/
+
+.products-card:not(.active) .products-card-title {
+	transform: rotate(-90deg);
+}
+
+.products-card:not(.active) .products-card-text {
+	position: absolute;
+	opacity: 0;
+
+	transition-delay: 0ms;
+	transition-duration: 100ms;
+}
+
+.products-card:not(.active) .products-card-shadow {
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 0) 100%
+	);
+
+	height: 100%;
+}

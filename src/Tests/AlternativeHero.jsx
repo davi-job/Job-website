@@ -1,4 +1,4 @@
-import "../styles/tests.css";
+import "../tests/tests.css";
 
 import CtaBtn from "../components/CTA-Btn";
 import SecondaryBtn from "../components/Secondary-Btn";
