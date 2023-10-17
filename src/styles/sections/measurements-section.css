@@ -1,0 +1,113 @@
+/*******************************************/
+/*************** MEASUREMENT ***************/
+/*******************************************/
+
+.measurement-section {
+	margin: 12rem 0;
+}
+
+.measurement-title-container {
+	text-align: center;
+
+	margin-bottom: 12rem;
+}
+
+.measurement-section-heading {
+	font-size: 4.8rem;
+
+	color: #909090;
+}
+
+.measurement-section-container {
+	max-width: 85rem;
+	gap: 4.2rem;
+
+	margin-bottom: 12rem;
+}
+
+.measurement-tables-title {
+	margin-bottom: 2.4rem;
+
+	font-size: 2.8rem;
+	font-weight: 700;
+
+	letter-spacing: -0.5px;
+}
+
+.measurement-tables-list {
+	flex-direction: column;
+
+	list-style-type: none;
+
+	gap: 1.8rem;
+}
+
+.measurement-tables-link:visited,
+.measurement-tables-link:link {
+	display: flex;
+
+	text-decoration: none;
+
+	font-size: 2rem;
+
+	align-items: center;
+	justify-content: space-between;
+
+	padding: 2.4rem 3.2rem;
+
+	border-radius: 1.2rem;
+
+	background-color: var(--secondary-color);
+	color: var(--background);
+
+	transition: all 0.25s ease-in-out;
+}
+
+.measurement-tables-link:hover {
+	background-color: var(--primary-color);
+
+	scale: 1.025;
+}
+
+.measurement-tables-link:active {
+	background-color: var(--primary-color);
+}
+
+.measurement-image-container {
+	position: relative;
+
+	max-width: 140rem;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.measurement-image {
+	width: 100%;
+	aspect-ratio: 16/9;
+
+	border-radius: 1.8rem;
+
+	object-fit: cover;
+	object-position: center;
+
+	border: 3px dashed var(--primary-color);
+}
+
+.measurement-cta-btn {
+	position: absolute;
+
+	bottom: 10%;
+	left: 50%;
+	translate: -50% -50%;
+
+	scale: 1.25;
+
+	background-color: var(--primary-color);
+}
+
+.measurement-cta-btn:hover {
+	background-color: var(--secondary-color);
+
+	transform: scale(1.025);
+}

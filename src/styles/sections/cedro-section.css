@@ -1,0 +1,61 @@
+/*************************************/
+/*************** CEDRO ***************/
+/*************************************/
+
+.cedro-section {
+	margin: 24rem 0 18rem;
+}
+
+.cedro-section-container {
+	justify-content: center;
+	align-items: center;
+}
+
+.cedro-section-content {
+	position: relative;
+
+	max-width: 65%;
+
+	padding: 2.4rem 32rem 2.4rem 2.4rem;
+
+	color: var(--white);
+
+	background-image: var(--back-gradient);
+
+	border-radius: 1.8rem;
+}
+
+.cedro-section-content-title {
+	font-size: 3.2rem;
+	font-weight: 700;
+
+	margin-bottom: 3.2rem;
+}
+
+.cedro-section-content-text {
+	margin-bottom: 2.4rem;
+
+	line-height: 1.35;
+
+	color: #efefef;
+}
+
+.cedro-section-content-link {
+	color: #fff;
+
+	font-size: 1.8rem;
+	font-weight: 500;
+
+	transition: all 0.2s ease-in-out;
+}
+
+.cedro-section-content-link:hover {
+	color: var(--accent-color);
+}
+
+.cedro-section-content-img {
+	position: absolute;
+
+	top: -40%;
+	right: -13%;
+}

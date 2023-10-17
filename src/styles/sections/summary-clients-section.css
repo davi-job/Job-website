@@ -1,0 +1,143 @@
+/***************************************/
+/*************** SUMMARY ***************/
+/***************************************/
+
+.summary-section {
+	margin: 12rem 0 18rem;
+}
+
+.summary-section-container {
+	max-width: 90rem;
+	gap: 0;
+
+	align-items: center;
+	justify-items: end;
+}
+
+.summary-section-text {
+	text-align: center;
+}
+
+.summary-section-text h2 {
+	font-size: 3.2rem;
+}
+
+.summary-section-text p {
+	font-size: 2.4rem;
+
+	line-height: 1.4;
+	letter-spacing: -0.25px;
+
+	margin-bottom: 3.2rem;
+
+	color: var(--text);
+}
+
+.summary-section-image {
+	width: 35rem;
+	aspect-ratio: 1/1;
+
+	border-radius: 1.8rem;
+
+	object-fit: cover;
+	object-position: center;
+
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/***************************************/
+/*************** CLIENTS ***************/
+/***************************************/
+
+.clients-section {
+	margin: 12rem 0;
+	text-align: center;
+}
+
+.clients-heading {
+	margin-bottom: 4.8rem;
+
+	border-color: var(--text);
+
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.clients-list-box {
+	position: relative;
+
+	flex-wrap: nowrap;
+	gap: 0;
+
+	overflow-x: hidden;
+}
+
+/***** Fades *****/
+/* 
+.clients-list-box::before,
+.clients-list-box::after {
+	content: "";
+
+	position: absolute;
+	top: 0;
+
+	width: 7.5%;
+	height: 100%;
+
+	z-index: 2;
+}
+
+.clients-list-box::before {
+	left: 0;
+
+	background: linear-gradient(
+		to right,
+		var(--background) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.clients-list-box::after {
+	right: 0;
+
+	background: linear-gradient(
+		to left,
+		var(--background) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+} */
+
+/*****************/
+
+.clients-list {
+	list-style-type: none;
+
+	gap: var(--clients-list-gap);
+	margin-right: var(--clients-list-gap);
+
+	justify-content: center;
+	align-items: center;
+
+	flex-wrap: nowrap;
+
+	animation: slideLeft 25s linear infinite;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-100% - var(--clients-list-gap)));
+	}
+}
+
+.clients-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.client-item_logo {
+	font-size: 9rem;
+}
