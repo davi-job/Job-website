@@ -24,7 +24,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Manequim Masculino.pdf"
+								href="\PDFs\Measurement Tables\Manequim Masculino.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social</span>
@@ -39,7 +39,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Manequim Masculino - plus size.pdf"
+								href="\PDFs\Measurement Tables\Manequim Masculino - plus size.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social - Plus size</span>
@@ -62,7 +62,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Manequim Feminino.pdf"
+								href="\PDFs\Measurement Tables\Manequim Feminino.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social</span>
@@ -77,7 +77,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Manequim Feminino - plus size.pdf"
+								href="\PDFs\Measurement Tables\Manequim Feminino - plus size.pdf"
 								target="_blank"
 							>
 								<span>Manequim Social - Plus size</span>
@@ -92,7 +92,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Blazers.pdf"
+								href="\PDFs\Measurement Tables\Blazers.pdf"
 								target="_blank"
 							>
 								<span>Blazer</span>
@@ -107,7 +107,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Vestidos.pdf"
+								href="\PDFs\Measurement Tables\Vestidos.pdf"
 								target="_blank"
 							>
 								<span>Vestido</span>
@@ -128,7 +128,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Malhas.pdf"
+								href="\PDFs\Measurement Tables\Malhas.pdf"
 								target="_blank"
 							>
 								<span>Malhas</span>
@@ -143,7 +143,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Coletes.pdf"
+								href="\PDFs\Measurement Tables\Coletes.pdf"
 								target="_blank"
 							>
 								<span>Colete</span>
@@ -158,7 +158,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Macacões.pdf"
+								href="\PDFs\Measurement Tables\Macacões.pdf"
 								target="_blank"
 							>
 								<span>Macacão</span>
@@ -173,7 +173,7 @@ function MeasurementSection({ className }) {
 						<li className="measurement-tables-item">
 							<a
 								className="measurement-tables-link"
-								href="src\PDFs\Measurement Tables\Conjuntos Profissionais.pdf"
+								href="\PDFs\Measurement Tables\Conjuntos Profissionais.pdf"
 								target="_blank"
 							>
 								<span>Conjunto camisa e calça</span>
@@ -190,7 +190,7 @@ function MeasurementSection({ className }) {
 
 			<div className="measurement-image-container container flex">
 				<LazyImg
-					src="src\images\Medidas.jpeg"
+					src="\images\Medidas.jpeg"
 					alt="how to take measurements"
 					className="measurement-image"
 					hasSmall={true}

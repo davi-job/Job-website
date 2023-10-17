@@ -10,7 +10,7 @@ function ProcessSection() {
 
 				<img
 					className="process-img"
-					src="/src/images/process.jpg"
+					src="/images/process.jpg"
 					alt="Process"
 				/>
 

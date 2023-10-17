@@ -22,7 +22,7 @@ function CedroSection() {
 					</p>
 
 					<a
-						href="src\PDFs\Catálogo Cedro.pdf"
+						href="\PDFs\Catálogo Cedro.pdf"
 						target="_blank"
 						rel="noreferrer"
 						className="cedro-section-content-link"
@@ -31,7 +31,7 @@ function CedroSection() {
 					</a>
 
 					<LazyImg
-						src="src\images\cedro-workwear.png"
+						src="\images\cedro-workwear.png"
 						alt="cedro workwear"
 						className="cedro-section-content-img"
 						hasSmall={true}

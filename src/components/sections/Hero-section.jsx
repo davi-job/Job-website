@@ -30,21 +30,21 @@ function HeroSection({ summaryRef }) {
 				<div>
 					<img
 						className="carousel-img"
-						src="/src/images/Hero/hero-3.jpg"
+						src="/images/Hero/hero-3.jpg"
 					/>
 				</div>
 
 				<div>
 					<img
 						className="carousel-img"
-						src="/src/images/Hero/hero-2.jpg"
+						src="/images/Hero/hero-2.jpg"
 					/>
 				</div>
 
 				<div>
 					<img
 						className="carousel-img"
-						src="/src/images/Hero/hero-1.jpg"
+						src="/images/Hero/hero-1.jpg"
 					/>
 				</div>
 			</Carousel>

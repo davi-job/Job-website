@@ -13,7 +13,7 @@ function Header() {
 						<Link className="header-logo-btn" to={"/"}>
 							<img
 								className="header-logo-img"
-								src="src/images/job-logo.png"
+								src="/images/job-logo.png"
 								alt="job uniformes logo"
 							/>
 						</Link>
