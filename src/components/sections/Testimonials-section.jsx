@@ -2,9 +2,11 @@ function TestimonialsSection() {
 	return (
 		<section className="testimonials-section">
 			<div className="testimonials-section-container container flex">
-				<h2 className="testimonials-section-title heading-secondary">
-					Depoimentos dos nossos parceiros
-				</h2>
+				<div className="testimonials-title-box">
+					<h2 className="testimonials-section-title heading-secondary">
+						Depoimentos dos nossos parceiros
+					</h2>
+				</div>
 
 				<div className="testimonial-cards-box grid grid--2-cols">
 					<div className="testimonial-card flex">

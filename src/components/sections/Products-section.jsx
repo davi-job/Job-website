@@ -22,7 +22,7 @@ function ProductsSection({ className }) {
 				>
 					<LazyImg
 						className="products-card-bg-image"
-						src="/src/images/Produtos/produtos-antichama.jpg"
+						src="/images/Produtos/produtos-antichama.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -51,7 +51,7 @@ function ProductsSection({ className }) {
 				>
 					<LazyImg
 						className="products-card-bg-image"
-						src="/src/images/Produtos/produtos-social.jpg"
+						src="/images/Produtos/produtos-social.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -80,7 +80,7 @@ function ProductsSection({ className }) {
 				>
 					<LazyImg
 						className="products-card-bg-image"
-						src="/src/images/Produtos/produtos-hospitalar.jpg"
+						src="/images/Produtos/produtos-hospitalar.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -110,7 +110,7 @@ function ProductsSection({ className }) {
 				>
 					<LazyImg
 						className="products-card-bg-image"
-						src="/src/images/Produtos/produtos-profissional.jpg"
+						src="/images/Produtos/produtos-profissional.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>
@@ -140,7 +140,7 @@ function ProductsSection({ className }) {
 				>
 					<LazyImg
 						className="products-card-bg-image"
-						src="/src/images/Produtos/produtos-malha.jpg"
+						src="/images/Produtos/produtos-malha.jpg"
 						alt="hero"
 						hasSmall={true}
 					/>

@@ -18,7 +18,7 @@ function SummarySection({ summaryRef }) {
 
 				<div className="summary-section-image-box">
 					<LazyImg
-						src="/src/images/summary-img.jpg"
+						src="/images/summary-img.jpg"
 						alt="summary-img"
 						className="summary-section-image"
 						hasSmall={true}
