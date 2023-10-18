@@ -1,0 +1,506 @@
+/* 1550px */
+@media screen and (max-width: 96.875em) {
+	/* HERO SECTION ************************************************/
+
+	.hero-section-content {
+		max-width: 45%;
+
+		left: 27%;
+	}
+}
+
+/* 1150px */
+@media screen and (max-width: 71.875em) {
+	html {
+		font-size: calc((8.5 / 16) * 100%);
+	}
+
+	/* PRODUCTS SECTION ********************************************/
+
+	.products-container {
+		gap: 1.25rem;
+	}
+
+	.products-card {
+		height: 50rem;
+	}
+
+	/* TESTIMONIALS SECTION ****************************************/
+
+	.testimonial-cards-box {
+		gap: 1.5rem;
+	}
+
+	/* PRODUCTS SHOWCASE SECTION ***********************************/
+
+	.products-showcase-section-container {
+		gap: 3.2rem;
+	}
+
+	/* FOOTER SECTION **********************************************/
+
+	.footer {
+		padding: 8rem 3.2rem 1rem;
+	}
+}
+
+/* 1000px */
+@media screen and (max-width: 62.5em) {
+	/* CEDRO SECTION ***********************************************/
+
+	.cedro-section {
+		margin: 46rem 0 18rem;
+	}
+
+	.cedro-section-content {
+		padding: 16rem 2.4rem 2.4rem;
+	}
+
+	.cedro-section-content-img {
+		top: -60%;
+		right: 50%;
+		transform: translateX(50%);
+	}
+}
+
+/* 850px */
+@media screen and (max-width: 53.125em) {
+	/* HEADER ******************************************************/
+
+	.header-main-container .cta-btn {
+		display: none;
+	}
+
+	.header-nav-container {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: flex;
+	}
+
+	.mobile-nav-btn {
+		display: block;
+	}
+
+	/* HERO SECTION ************************************************/
+
+	.hero-section {
+		display: flex;
+		flex-direction: column;
+
+		margin-bottom: 16rem;
+
+		gap: 4.8rem;
+
+		justify-content: center;
+	}
+
+	.hero-section div:first-child {
+		max-height: 30rem;
+		overflow: hidden;
+	}
+
+	.hero-section .hero-section-container .hero-section-content {
+		max-height: none;
+	}
+
+	.carousel-root div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dot {
+		width: 0.8rem !important;
+		height: 0.8rem !important;
+	}
+
+	.hero-section-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.hero-section-content {
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+
+		position: static;
+		transform: none;
+
+		max-width: none;
+		width: 70%;
+
+		color: var(--text);
+
+		text-align: center;
+	}
+
+	.hero-section-content h1 {
+		max-width: none;
+	}
+
+	.hero-section-content p {
+		color: var(--text);
+	}
+
+	.hero-section-content::before {
+		display: none;
+	}
+
+	.hero-section .secondary-btn {
+		color: var(--text);
+		background-color: transparent;
+	}
+
+	/* SUMMARY SECTION *********************************************/
+
+	.summary-section {
+		margin-bottom: 12;
+	}
+
+	.clients-list {
+		--clients-list-gap: 6.4rem;
+	}
+
+	/* PRODUCTS SECTION ********************************************/
+
+	.products-container {
+		padding: 0;
+	}
+
+	/* CEDRO SECTION ***********************************************/
+
+	.cedro-section-content {
+		max-width: 90%;
+	}
+
+	/* TESTIMONIALS SECTION ****************************************/
+
+	.testimonial-cards-box {
+		grid-template-columns: 1fr;
+		max-width: 85%;
+
+		row-gap: 2.4rem;
+	}
+
+	/* PRODUCTS SHOWCASE SECTION ***********************************/
+
+	.products-showcase-section-container {
+		grid-template-columns: 1fr;
+
+		row-gap: 16rem;
+
+		justify-items: center;
+	}
+
+	.products-showcase-section-nav {
+		width: 100%;
+
+		justify-content: center;
+	}
+
+	.products-showcase-section-cta-btn,
+	.products-showcase-nav-title {
+		margin: 0 auto;
+	}
+
+	.products-showcase-section-cta-btn {
+		padding: 2.4rem;
+	}
+
+	.products-showcase-nav-list {
+		flex-direction: row;
+
+		gap: 0;
+
+		margin: 0 auto;
+	}
+
+	.products-showcase-nav-button {
+		font-size: 1.9rem;
+
+		padding: 1.6rem;
+	}
+
+	.products-showcase-nav-item:first-of-type button {
+		border-left: none;
+	}
+}
+
+/* 625px */
+@media screen and (max-width: 39.0625em) {
+	.heading-secondary {
+		font-size: 3.2rem;
+	}
+
+	/* FOOTER ******************************************************/
+
+	.footer-main-container {
+		flex-direction: column;
+
+		gap: 6.4rem;
+	}
+
+	.footer-main-container a {
+		translate: none;
+	}
+
+	.footer-bottom-container {
+		gap: 6.4rem;
+
+		margin-top: 6.4rem;
+	}
+
+	.footer-logo-nav-box {
+		display: flex;
+		align-items: center;
+
+		flex-direction: column;
+	}
+
+	/* HERO SECTION ************************************************/
+
+	.hero-section-content {
+		width: 100%;
+	}
+
+	/* CLIENTS SECTION *********************************************/
+
+	.clients-heading {
+		font-size: 1.8rem;
+	}
+
+	.client-item_logo {
+		font-size: 7rem;
+	}
+
+	/* SUMMARY SECTION *********************************************/
+
+	.summary-section-image {
+		width: 25rem;
+	}
+
+	.summary-section-text h2 {
+		font-size: 2.4rem;
+	}
+
+	.summary-section-text p {
+		font-size: 1.8rem;
+	}
+
+	/* PROCESS SECTION *********************************************/
+
+	.process-img {
+		display: none;
+	}
+
+	.process-img.mobile {
+		display: block;
+	}
+
+	/* PRODUCTS SECTION ********************************************/
+
+	.products-container {
+		flex-direction: column;
+	}
+
+	.products-card {
+		width: 100%;
+		height: 6rem;
+	}
+
+	.products-card.active {
+		height: 35rem;
+	}
+
+	.products-card:not(.active) .products-card-content {
+		padding: 0 2.4rem;
+	}
+
+	.products-card:not(.active) .products-card-title {
+		transform: none;
+	}
+
+	.products-card.active .products-card-shadow {
+		background: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 1) 0%,
+			rgba(0, 0, 0, 0) 100%
+		);
+
+		height: 100%;
+	}
+
+	/* CEDRO SECTION ***********************************************/
+
+	.cedro-section-content {
+		max-width: 100%;
+	}
+
+	.cedro-section-content-img {
+		top: -53%;
+	}
+
+	/* MEASUREMENT SECTION *****************************************/
+
+	.measurement-section-container {
+		grid-template-columns: 1fr;
+
+		max-width: 90%;
+	}
+
+	.measurement-section-img {
+		display: none;
+	}
+
+	.measurement-image-container {
+		display: none;
+	}
+}
+
+/* 515px */
+@media screen and (max-width: 32.1875em) {
+	/* PRODUCTS SHOWCASE SECTION ***********************************/
+
+	.products-showcase-section-container {
+		padding: 0;
+
+		gap: 18rem;
+	}
+
+	.products-showcase-section-img {
+		border-radius: 0;
+	}
+
+	.products-showcase-section-text {
+		width: 95%;
+	}
+
+	.products-showcase-section-cta-btn,
+	.products-showcase-nav-title {
+		margin: 0 auto;
+
+		width: 70%;
+	}
+
+	.products-showcase-nav-list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		gap: 2.4rem;
+	}
+
+	.products-showcase-nav-item button {
+		width: 100%;
+	}
+
+	.products-showcase-nav-item:first-of-type button {
+		border-left: 2px solid var(--primary-color);
+	}
+}
+
+/* 450px */
+@media screen and (max-width: 28.125em) {
+	.heading-secondary {
+		font-size: 2.6rem;
+	}
+
+	.hero-section-content {
+		padding: 2.4rem 0;
+	}
+
+	.hero-section h1 {
+		font-size: 4rem;
+	}
+
+	.hero-section-container {
+		padding: 0 1.2rem;
+	}
+
+	.summary-section {
+		margin-bottom: 0;
+	}
+
+	.summary-section-container {
+		display: flex;
+		flex-direction: column-reverse;
+
+		gap: 4.8rem;
+
+		justify-content: center;
+		align-items: center;
+	}
+
+	.clients-heading {
+		font-size: 1.8rem;
+	}
+
+	.products-card.active {
+		height: 45rem;
+	}
+
+	.testimonials-section {
+		margin-bottom: 14rem;
+	}
+
+	.testimonial-card {
+		flex-direction: column;
+
+		gap: 2.8rem;
+
+		margin-left: -4.2rem;
+		margin-right: -4.2rem;
+	}
+
+	.testimonial-image-box {
+		display: flex;
+		align-items: center;
+	}
+
+	.testimonial-author {
+		text-align: left;
+
+		font-size: 1.8rem;
+
+		margin-left: 1.2rem;
+	}
+
+	.footer-nav-list {
+		gap: 1.2rem;
+
+		margin-left: -2.6rem;
+		margin-right: -2.6rem;
+	}
+
+	.footer-bottom-container {
+		flex-direction: column;
+		gap: 2.4rem;
+
+		text-align: center;
+	}
+
+	.products-showcase-section-container {
+		gap: 26rem;
+	}
+
+	.products-showcase-section-text {
+		bottom: -13%;
+	}
+}
+
+/* 410px */
+@media screen and (max-width: 25.625em) {
+	.cedro-section-content-img {
+		width: 32rem;
+		height: 32rem;
+
+		top: -30%;
+	}
+
+	.cedro-section {
+		margin-top: 0;
+	}
+}

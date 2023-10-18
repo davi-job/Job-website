@@ -1,9 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 import CtaBtn from "../CTA-Btn";
-import { useLocation } from "react-router-dom";
+import MobileNav from "../Mobile-nav";
+import MobileNavBtn from "../Mobile-nav-btn";
 
 function Header() {
 	const location = useLocation();
+	const [mobileNavActive, setMobileNavActive] = useState(false);
+
+	function toggleMobileNav(event) {
+		if (event.target.checked) {
+			setMobileNavActive(true);
+		} else {
+			setMobileNavActive(false);
+		}
+	}
+
+	useEffect(() => {
+		setMobileNavActive(false);
+	}, [location]);
 
 	return (
 		<header className="header">
@@ -18,6 +33,8 @@ function Header() {
 							/>
 						</Link>
 					</div>
+
+					<MobileNavBtn onClickFunc={toggleMobileNav} />
 
 					<CtaBtn>Faça seu orçamento</CtaBtn>
 				</div>
@@ -72,6 +89,8 @@ function Header() {
 					</ul>
 				</nav>
 			</div>
+
+			<MobileNav className={mobileNavActive ? "active" : ""} />
 		</header>
 	);
 }

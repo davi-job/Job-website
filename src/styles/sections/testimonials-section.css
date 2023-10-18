@@ -12,6 +12,10 @@
 	align-items: center;
 }
 
+.testimonials-title-box {
+	text-align: center;
+}
+
 .testimonials-section-title {
 	margin-bottom: 3.2rem;
 
@@ -20,6 +24,8 @@
 
 .testimonial-cards-box {
 	gap: 6.4rem;
+
+	justify-content: center;
 }
 
 .testimonial-card {
