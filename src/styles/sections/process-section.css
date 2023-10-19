@@ -13,6 +13,10 @@
 
 .process-section-container {
 	text-align: center;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .process-section-title {
@@ -33,6 +37,12 @@
 	user-select: none;
 }
 
+.process-img.mobile {
+	display: none;
+
+	width: 80%;
+}
+
 .process-btn {
 	position: relative;
 
@@ -43,6 +53,8 @@
 	background-color: transparent;
 
 	border: 3px solid var(--white);
+
+	align-self: center;
 }
 
 .process-btn::before {

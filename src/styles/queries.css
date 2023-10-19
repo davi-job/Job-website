@@ -301,6 +301,10 @@
 		display: block;
 	}
 
+	.process-section-title {
+		margin-bottom: 7rem;
+	}
+
 	/* PRODUCTS SECTION ********************************************/
 
 	.products-container {
@@ -363,6 +367,12 @@
 
 /* 515px */
 @media screen and (max-width: 32.1875em) {
+	/* PROCESS *****************************************************/
+
+	.process-img.mobile {
+		width: 90%;
+	}
+
 	/* PRODUCTS SHOWCASE SECTION ***********************************/
 
 	.products-showcase-section-container {
@@ -442,6 +452,12 @@
 		height: 45rem;
 	}
 
+	/* PROCESS *****************************************************/
+
+	.process-img.mobile {
+		width: 100%;
+	}
+
 	.testimonials-section {
 		margin-bottom: 14rem;
 	}
@@ -502,5 +518,18 @@
 
 	.cedro-section {
 		margin-top: 0;
+	}
+
+	.clients-heading {
+		font-size: 1.6rem;
+		margin-bottom: 3.6rem;
+	}
+
+	.clients-list {
+		--clients-list-gap: 4.8rem;
+	}
+
+	.client-item_logo {
+		font-size: 6.5rem;
 	}
 }
