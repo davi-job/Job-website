@@ -31,21 +31,24 @@ function HeroSection({ summaryRef }) {
 					<div>
 						<img
 							className="carousel-img"
-							src="/images/Hero/hero-3.jpg"
+							src="/images/Hero/hero-3.webp"
+							alt="homem em roupa reflexiva amarela usando capacete branco"
 						/>
 					</div>
 
 					<div>
 						<img
 							className="carousel-img"
-							src="/images/Hero/hero-2.jpg"
+							src="/images/Hero/hero-2.webp"
+							alt="interior de um hospital com médicos, enfermeiras e pacientes presentes"
 						/>
 					</div>
 
 					<div>
 						<img
 							className="carousel-img"
-							src="/images/Hero/hero-1.jpg"
+							src="/images/Hero/hero-1.webp"
+							alt="engenheiro elétrico em uniforme de trabalho e um capacete laranja falando em um rádio"
 						/>
 					</div>
 				</Carousel>

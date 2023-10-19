@@ -190,7 +190,7 @@ function MeasurementSection({ className }) {
 
 			<div className="measurement-image-container container flex">
 				<LazyImg
-					src="\images\Medidas.jpeg"
+					src="\images\Medidas.webp"
 					alt="how to take measurements"
 					className="measurement-image"
 					hasSmall={true}
