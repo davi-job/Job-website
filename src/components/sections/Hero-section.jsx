@@ -32,6 +32,7 @@ function HeroSection({ summaryRef }) {
 						<img
 							className="carousel-img"
 							src="/images/Hero/hero-3.jpg"
+							alt="homem em roupa reflexiva amarela usando capacete branco"
 						/>
 					</div>
 
@@ -39,6 +40,7 @@ function HeroSection({ summaryRef }) {
 						<img
 							className="carousel-img"
 							src="/images/Hero/hero-2.jpg"
+							alt="interior de um hospital com médicos, enfermeiras e pacientes presentes"
 						/>
 					</div>
 
@@ -46,6 +48,7 @@ function HeroSection({ summaryRef }) {
 						<img
 							className="carousel-img"
 							src="/images/Hero/hero-1.jpg"
+							alt="engenheiro elétrico em uniforme de trabalho e um capacete laranja falando em um rádio"
 						/>
 					</div>
 				</Carousel>

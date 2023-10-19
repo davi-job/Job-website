@@ -114,6 +114,9 @@
 	.dot {
 		width: 0.8rem !important;
 		height: 0.8rem !important;
+
+		touch-action: none !important;
+		pointer-events: none !important;
 	}
 
 	.hero-section-container {
