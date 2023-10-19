@@ -28,7 +28,7 @@ function Header() {
 						<Link className="header-logo-btn" to={"/"}>
 							<img
 								className="header-logo-img"
-								src="/images/job-logo.png"
+								src="/images/job-logo.webp"
 								alt="job uniformes logo"
 							/>
 						</Link>

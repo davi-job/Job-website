@@ -6,31 +6,31 @@ import { useState } from "react";
 const products = [
 	{
 		title: "Uniforme Antichama (FR)",
-		imageUrl: "/images/Test imgs/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg",
+		imageUrl: "/images/Test imgs/mohamed-nohassi-odxB5oIG_iA-unsplash.webp",
 		description:
 			"Os uniformes retardantes a chama (FR), são indicados para profissionais que trabalham expostos em áreas de risco de fogo repentino e arco elétrico, com tecidos especialmente desenvolvidos com alta tecnologia, além de passar por um rigoroso teste de aprovação, oferecendo mais segurança e proteção no ambiente de trabalho.",
 	},
 	{
 		title: "Uniforme Social",
-		imageUrl: "/images/Test imgs/luca-bravo-VowIFDxogG4-unsplash.jpg",
+		imageUrl: "/images/Test imgs/luca-bravo-VowIFDxogG4-unsplash.webp",
 		description:
 			"Confeccionados com qualidade e tecnologia, os uniformes sociais são indicados para áreas administrativas, recepção, segurança, limpeza e serviços diversos.",
 	},
 	{
 		title: "Uniforme Hospitalar",
-		imageUrl: "/images/Test imgs/adam-kool-ndN00KmbJ1c-unsplash.jpg",
+		imageUrl: "/images/Test imgs/adam-kool-ndN00KmbJ1c-unsplash.webp",
 		description:
 			"Os uniformes hospitalares são indicados para clínicas, hospitais, laboratórios e unidades de saúde, confeccionado  com tecidos profissionais técnicos e modernos,  com alto padrão de qualidade e resistência.",
 	},
 	{
 		title: "Uniforme Profissional",
-		imageUrl: "/images/Test imgs/robert-lukeman-_RBcxo9AU-U-unsplash.jpg",
+		imageUrl: "/images/Test imgs/robert-lukeman-_RBcxo9AU-U-unsplash.webp",
 		description:
 			"Confeccionados com qualidade e tecnologia, os uniformes profissionais são indicados para serviços, transporte e logística, construção civil e indústrias em geral. Esse tipo de uniforme tem uma maior resistência em seus tecidos, que foram especialmente desenvolvidos para suportar cargas de trabalho, maior resistência a rasgo e com proteção UVA/UVB.",
 	},
 	{
 		title: "Uniforme de Malha",
-		imageUrl: "/images/Test imgs/wil-stewart-pHANr-CpbYM-unsplash.jpg",
+		imageUrl: "/images/Test imgs/wil-stewart-pHANr-CpbYM-unsplash.webp",
 		description:
 			"As camisas confeccionadas em malha PV, DRY, DRY FIT, PP e PIQUET. Esse tipo de fardamento é bastante usado em praticamente todos os postos de trabalho por sua versatilidade e conforto, trazendo um aspecto mais leve e simples ao ambiente de trabalho. Esse tipo de produto  também é utilizado para realização de eventos e campanhas de marketing",
 	},

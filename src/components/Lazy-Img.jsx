@@ -14,11 +14,9 @@ function LazyImg({ className, src, alt, hasSmall }) {
 
 		smallSrc = src.slice(0, commaIndex) + "-small";
 		smallSrc = smallSrc.replaceAll(`\\`, "/");
-		smallSrc = smallSrc.replace("/images", "/images/small");
+		smallSrc = smallSrc.replace("/images", "public/images/small");
 
-		src.slice(commaIndex) === ".png" || src.slice(commaIndex) === ".jpeg"
-			? (smallSrc += ".png")
-			: (smallSrc += ".jpg");
+		smallSrc += ".webp";
 	}
 
 	return (

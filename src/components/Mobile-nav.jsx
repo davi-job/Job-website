@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import CtaBtn from "./Cta-btn";
+import CtaBtn from "./CTA-Btn.jsx";
 
 function MobileNav({ className }) {
 	return (

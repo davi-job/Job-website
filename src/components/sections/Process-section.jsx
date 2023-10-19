@@ -10,13 +10,13 @@ function ProcessSection() {
 
 				<img
 					className="process-img"
-					src="/images/process.jpg"
+					src="/images/process.webp"
 					alt="Process"
 				/>
 
 				<img
 					className="process-img mobile"
-					src="/images/mobile process.jpg"
+					src="/images/mobile process.webp"
 					alt="mobile process"
 				/>
 
