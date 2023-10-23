@@ -1,14 +1,14 @@
-# Job Uniformes
+# Job Uniforms
 
-**Expandindo a Visibilidade da Job Uniformes no Mundo Online**
+**Expanding Job Uniforms' Visibility in the Online World**
 
 ### Tech Stack
 
--   **ReactJS:** Utilizei o ReactJS para criar uma experiência web dinâmica e responsiva.
--   **Vanilla CSS:** Os estilos foram desenvolvidos com CSS puro, garantindo um design personalizado e atrativo.
--   **NPM Packages:** Utilizei bibliotecas e pacotes NPM para aprimorar a funcionalidade do projeto.
+-   **ReactJS:** I used ReactJS to create a dynamic and responsive web experience.
+-   **Vanilla CSS:** Styles were developed using pure CSS, ensuring a customized and attractive design.
+-   **NPM Packages:** I utilized some NPM libraries and packages to enhance project functionality.
 
 ### Live Demo Link
 
--   [**Versão do Netlify**](https://jobuniformes.netlify.app/)
--   [**Versão Oficial**](https://www.jobroupasprofissionais.com.br/)
+-   [**Netlify Version**](https://jobuniformes.netlify.app/)
+-   [**Official Version**](https://www.jobroupasprofissionais.com.br/)
