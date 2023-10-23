@@ -10,5 +10,5 @@
 
 ### Live Demo Link
 
--   [**Netlify Version**](https://jobuniformes.netlify.app/){:target="_blank"}
--   [**Official Version**](https://www.jobroupasprofissionais.com.br/){:target="_blank"}
+-   [**Netlify Version**](https://jobuniformes.netlify.app/)
+-   [**Official Version**](https://www.jobroupasprofissionais.com.br/)
