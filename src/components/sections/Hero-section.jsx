@@ -69,7 +69,7 @@ function HeroSection({ summaryRef }) {
 						cada empresa. Com uma ampla gama de opções de
 						personalização e designs exclusivos, nossos uniformes
 						são a escolha ideal para empresas que buscam qualidade e
-						individualidade.
+						segurança.
 					</p>
 
 					<div className="hero-btns flex">
