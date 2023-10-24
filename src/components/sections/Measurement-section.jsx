@@ -146,7 +146,7 @@ function MeasurementSection({ className }) {
 								href="\PDFs\Measurement Tables\Coletes.pdf"
 								target="_blank"
 							>
-								<span>Colete</span>
+								<span>Colete Profissional</span>
 
 								<ion-icon
 									class="measurement-tables-download-icon"
@@ -161,7 +161,7 @@ function MeasurementSection({ className }) {
 								href="\PDFs\Measurement Tables\Macacões.pdf"
 								target="_blank"
 							>
-								<span>Macacão</span>
+								<span>Macacão Profissional</span>
 
 								<ion-icon
 									class="measurement-tables-download-icon"
@@ -176,7 +176,7 @@ function MeasurementSection({ className }) {
 								href="\PDFs\Measurement Tables\Conjuntos Profissionais.pdf"
 								target="_blank"
 							>
-								<span>Conjunto camisa e calça</span>
+								<span>Conjunto Profissional</span>
 
 								<ion-icon
 									class="measurement-tables-download-icon"

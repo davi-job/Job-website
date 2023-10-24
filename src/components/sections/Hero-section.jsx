@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function HeroSection({ summaryRef }) {
 	function scrollToRef(elementRef) {
 		window.scrollTo({
-			top: elementRef.current.offsetTop - 120,
+			top: elementRef.current.offsetTop - 60,
 			behavior: "smooth",
 		});
 	}

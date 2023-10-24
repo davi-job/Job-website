@@ -1,20 +1,14 @@
 /* 1550px */
 @media screen and (max-width: 96.875em) {
-	/* HERO SECTION ************************************************/
-
-	.hero-section-content {
-		max-width: 45%;
-
-		left: 27%;
+	html {
+		font-size: calc((8 / 16) * 100%);
 	}
+
+	/* HERO SECTION ************************************************/
 }
 
 /* 1150px */
 @media screen and (max-width: 71.875em) {
-	html {
-		font-size: calc((8.5 / 16) * 100%);
-	}
-
 	/* PRODUCTS SECTION ********************************************/
 
 	.products-container {
