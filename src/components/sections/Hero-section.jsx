@@ -1,4 +1,5 @@
 import CtaBtn from "../CTA-Btn";
+import LazyImg from "../Lazy-Img";
 import SecondaryBtn from "../Secondary-Btn";
 
 import { Carousel } from "react-responsive-carousel";
@@ -29,26 +30,29 @@ function HeroSection({ summaryRef }) {
 					stopOnHover={false}
 				>
 					<div>
-						<img
+						<LazyImg
 							className="carousel-img"
-							src="/images/Hero/hero-3.webp"
+							src="/images/Hero/hero-1.webp"
 							alt="homem em roupa reflexiva amarela usando capacete branco"
+							hasSmall={true}
 						/>
 					</div>
 
 					<div>
-						<img
+						<LazyImg
 							className="carousel-img"
 							src="/images/Hero/hero-2.webp"
 							alt="interior de um hospital com médicos, enfermeiras e pacientes presentes"
+							hasSmall={true}
 						/>
 					</div>
 
 					<div>
-						<img
+						<LazyImg
 							className="carousel-img"
-							src="/images/Hero/hero-1.webp"
+							src="/images/Hero/hero-3.webp"
 							alt="engenheiro elétrico em uniforme de trabalho e um capacete laranja falando em um rádio"
+							hasSmall={true}
 						/>
 					</div>
 				</Carousel>

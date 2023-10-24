@@ -55,7 +55,7 @@
 }
 
 .clients-heading {
-	margin-bottom: 4.8rem;
+	margin-bottom: 3.8rem;
 
 	border-color: var(--text);
 
@@ -139,5 +139,10 @@
 }
 
 .client-item_logo {
-	font-size: 9rem;
+	height: 14rem;
+	width: 14rem;
+}
+
+.client-item_logo img {
+	mix-blend-mode: multiply;
 }
