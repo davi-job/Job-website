@@ -63,11 +63,13 @@ function HeroSection({ summaryRef }) {
 					<h1>Uniformes profissionais de alta qualidade</h1>
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua. Id diam maecenas ultricies mi eget. Vitae
-						nunc sed velit dignissim sodales ut eu sem integer. Arcu
-						cursus vitae congue mauris rhoncus aenean vel elit.
+						A Job Uniformes oferece uniformes profissionais
+						personalizados de alta qualidade, projetados
+						especificamente para atender às necessidades únicas de
+						cada empresa. Com uma ampla gama de opções de
+						personalização e designs exclusivos, nossos uniformes
+						são a escolha ideal para empresas que buscam qualidade e
+						individualidade.
 					</p>
 
 					<div className="hero-btns flex">
