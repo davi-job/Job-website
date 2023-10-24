@@ -3,12 +3,14 @@
 	html {
 		font-size: calc((8 / 16) * 100%);
 	}
-
-	/* HERO SECTION ************************************************/
 }
 
 /* 1150px */
 @media screen and (max-width: 71.875em) {
+	.header {
+		padding: 0 4rem;
+	}
+
 	/* PRODUCTS SECTION ********************************************/
 
 	.products-container {
@@ -40,44 +42,7 @@
 
 /* 1000px */
 @media screen and (max-width: 62.5em) {
-	/* CEDRO SECTION ***********************************************/
-
-	.cedro-section {
-		margin: 46rem 0 18rem;
-	}
-
-	.cedro-section-content {
-		padding: 16rem 2.4rem 2.4rem;
-	}
-
-	.cedro-section-content-img {
-		top: -60%;
-		right: 50%;
-		transform: translateX(50%);
-	}
-}
-
-/* 850px */
-@media screen and (max-width: 53.125em) {
-	/* HEADER ******************************************************/
-
-	.header-main-container .cta-btn {
-		display: none;
-	}
-
-	.header-nav-container {
-		display: none;
-	}
-
-	.mobile-nav {
-		display: flex;
-	}
-
-	.mobile-nav-btn {
-		display: block;
-	}
-
-	/* HERO SECTION ************************************************/
+	/* HERO ********************************************************/
 
 	.hero-section {
 		display: flex;
@@ -91,7 +56,7 @@
 	}
 
 	.hero-section div:first-child {
-		max-height: 30rem;
+		max-height: 40rem;
 		overflow: hidden;
 	}
 
@@ -150,6 +115,49 @@
 	.hero-section .secondary-btn {
 		color: var(--text);
 		background-color: transparent;
+	}
+
+	/* CEDRO SECTION ***********************************************/
+
+	.cedro-section {
+		margin: 46rem 0 18rem;
+	}
+
+	.cedro-section-content {
+		padding: 16rem 2.4rem 2.4rem;
+	}
+
+	.cedro-section-content-img {
+		top: -60%;
+		right: 50%;
+		transform: translateX(50%);
+	}
+}
+
+/* 850px */
+@media screen and (max-width: 53.125em) {
+	/* HEADER ******************************************************/
+
+	.header-main-container .cta-btn {
+		display: none;
+	}
+
+	.header-nav-container {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: flex;
+	}
+
+	.mobile-nav-btn {
+		display: block;
+	}
+
+	/* HERO SECTION ************************************************/
+
+	.hero-section div:first-child {
+		max-height: 30rem;
 	}
 
 	/* SUMMARY SECTION *********************************************/
@@ -229,6 +237,10 @@
 
 /* 625px */
 @media screen and (max-width: 39.0625em) {
+	.header {
+		padding: 0 1.5rem;
+	}
+
 	.heading-secondary {
 		font-size: 3.2rem;
 	}
@@ -508,6 +520,10 @@
 
 /* 410px */
 @media screen and (max-width: 25.625em) {
+	.header {
+		padding: 0 0;
+	}
+
 	.cedro-section-content-img {
 		width: 32rem;
 		height: 32rem;
