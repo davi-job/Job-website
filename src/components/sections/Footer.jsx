@@ -13,7 +13,7 @@ function Footer({ className }) {
 				<div className="footer-logo-nav-box">
 					<Link to={"/"} className="footer-logo-logo-link">
 						<img
-							src="\images\job-logo.webp"
+							src="\images\job-logo completa.webp"
 							alt="Logo"
 							className="footer-logo"
 						/>
