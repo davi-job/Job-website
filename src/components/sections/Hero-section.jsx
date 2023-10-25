@@ -70,10 +70,8 @@ function HeroSection({ summaryRef }) {
 						A Job Uniformes oferece uniformes profissionais
 						personalizados de alta qualidade, projetados
 						especificamente para atender às necessidades únicas de
-						cada empresa. Com uma ampla gama de opções de
-						personalização e designs exclusivos, nossos uniformes
-						são a escolha ideal para empresas que buscam qualidade e
-						segurança.
+						cada empresa, nossos uniformes são a escolha ideal para
+						empresas que buscam qualidade e segurança.
 					</p>
 
 					<div className="hero-btns flex">

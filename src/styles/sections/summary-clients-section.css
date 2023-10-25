@@ -72,43 +72,6 @@
 	overflow-x: hidden;
 }
 
-/***** Fades *****/
-/* 
-.clients-list-box::before,
-.clients-list-box::after {
-	content: "";
-
-	position: absolute;
-	top: 0;
-
-	width: 7.5%;
-	height: 100%;
-
-	z-index: 2;
-}
-
-.clients-list-box::before {
-	left: 0;
-
-	background: linear-gradient(
-		to right,
-		var(--background) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-}
-
-.clients-list-box::after {
-	right: 0;
-
-	background: linear-gradient(
-		to left,
-		var(--background) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-} */
-
-/*****************/
-
 .clients-list {
 	list-style-type: none;
 
@@ -145,5 +108,5 @@
 .client-item_logo img {
 	mix-blend-mode: multiply;
 
-	filter: grayscale(100%) brightness(0.75);
+	filter: grayscale(100%);
 }

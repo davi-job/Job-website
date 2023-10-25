@@ -3,6 +3,14 @@
 	html {
 		font-size: calc((8 / 16) * 100%);
 	}
+
+	.hero-carousel div:first-child {
+		max-height: 65rem;
+	}
+
+	.hero-section-content {
+		max-width: 45%;
+	}
 }
 
 /* 1150px */
@@ -115,6 +123,10 @@
 	.hero-section .secondary-btn {
 		color: var(--text);
 		background-color: transparent;
+	}
+
+	.hero-section::after {
+		display: none;
 	}
 
 	/* CEDRO SECTION ***********************************************/
@@ -283,7 +295,6 @@
 	}
 
 	.client-item_logo {
-		height: 13rem;
 		width: 13rem;
 	}
 

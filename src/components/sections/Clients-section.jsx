@@ -184,7 +184,7 @@ function ClientsSection() {
 
 					<li className="client-item">
 						<LazyImg
-							src="/images/Logos/kariri da sorte.webp"
+							src="/images/Logos/sirtec.webp"
 							alt="client_logo"
 							className="client-item_logo"
 							hasSmall={true}
@@ -294,7 +294,7 @@ function ClientsSection() {
 
 					<li className="client-item">
 						<LazyImg
-							src="/images/Logos/kariri da sorte.webp"
+							src="/images/Logos/sirtec.webp"
 							alt="client_logo"
 							className="client-item_logo"
 							hasSmall={true}
