@@ -3,6 +3,10 @@
 	html {
 		font-size: calc((8 / 16) * 100%);
 	}
+
+	.hero-carousel div:first-child {
+		max-height: 65rem;
+	}
 }
 
 /* 1150px */

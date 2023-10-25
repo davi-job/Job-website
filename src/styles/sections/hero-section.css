@@ -9,6 +9,29 @@
 	width: 100vw;
 }
 
+.hero-section::after {
+	content: "";
+
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(
+		to top right,
+		rgba(0, 0, 0, 1) -10%,
+		rgba(0, 0, 0, 0) 75%
+	);
+
+	z-index: 1;
+
+	user-select: none;
+	pointer-events: none;
+}
+
 .hero-carousel {
 	width: 100vw;
 	height: 100%;
@@ -38,51 +61,22 @@
 }
 
 .hero-section-content {
-	max-width: 50%;
+	max-width: 40%;
 
 	padding: 2.4rem;
 
 	border-radius: 0 1.8rem 1.8rem 0;
-	outline: 1px solid rgba(255, 255, 255, 0.5);
 
 	position: absolute;
 
 	top: 93%;
-	left: 0%;
+	left: 3%;
 	transform: translate(0, -100%);
 
 	color: var(--white);
+
+	z-index: 2;
 }
-
-/* Glassy Effect */
-
-.hero-section-content::before {
-	content: "";
-
-	position: absolute;
-
-	width: 100%;
-	height: 100%;
-
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
-	border-radius: inherit;
-
-	filter: blur(6px);
-	backdrop-filter: blur(6px);
-	-webkit-backdrop-filter: blur(6px);
-	background: radial-gradient(
-		circle,
-		rgba(9, 9, 9, 0.5) 0%,
-		rgba(9, 9, 9, 0.5) 100%
-	);
-
-	z-index: -1;
-}
-
-/**********************/
 
 .hero-section-content h1 {
 	font-size: 3.4rem;
@@ -94,6 +88,8 @@
 	letter-spacing: -0.75px;
 
 	margin-bottom: 2.4rem;
+
+	mix-blend-mode: difference;
 }
 
 .hero-section-content p {
