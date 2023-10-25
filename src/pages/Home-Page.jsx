@@ -17,7 +17,7 @@ function HomePage({ className }) {
 			<ClientsSection />
 			<ProductsSection />
 			<ProcessSection />
-			<TestimonialsSection />
+			{/* <TestimonialsSection /> */}
 		</main>
 	);
 }

@@ -1,18 +1,14 @@
 /* 1550px */
 @media screen and (max-width: 96.875em) {
-	/* HERO SECTION ************************************************/
-
-	.hero-section-content {
-		max-width: 45%;
-
-		left: 27%;
+	html {
+		font-size: calc((8 / 16) * 100%);
 	}
 }
 
 /* 1150px */
 @media screen and (max-width: 71.875em) {
-	html {
-		font-size: calc((8.5 / 16) * 100%);
+	.header {
+		padding: 0 4rem;
 	}
 
 	/* PRODUCTS SECTION ********************************************/
@@ -46,44 +42,7 @@
 
 /* 1000px */
 @media screen and (max-width: 62.5em) {
-	/* CEDRO SECTION ***********************************************/
-
-	.cedro-section {
-		margin: 46rem 0 18rem;
-	}
-
-	.cedro-section-content {
-		padding: 16rem 2.4rem 2.4rem;
-	}
-
-	.cedro-section-content-img {
-		top: -60%;
-		right: 50%;
-		transform: translateX(50%);
-	}
-}
-
-/* 850px */
-@media screen and (max-width: 53.125em) {
-	/* HEADER ******************************************************/
-
-	.header-main-container .cta-btn {
-		display: none;
-	}
-
-	.header-nav-container {
-		display: none;
-	}
-
-	.mobile-nav {
-		display: flex;
-	}
-
-	.mobile-nav-btn {
-		display: block;
-	}
-
-	/* HERO SECTION ************************************************/
+	/* HERO ********************************************************/
 
 	.hero-section {
 		display: flex;
@@ -97,7 +56,7 @@
 	}
 
 	.hero-section div:first-child {
-		max-height: 30rem;
+		max-height: 40rem;
 		overflow: hidden;
 	}
 
@@ -156,6 +115,49 @@
 	.hero-section .secondary-btn {
 		color: var(--text);
 		background-color: transparent;
+	}
+
+	/* CEDRO SECTION ***********************************************/
+
+	.cedro-section {
+		margin: 46rem 0 18rem;
+	}
+
+	.cedro-section-content {
+		padding: 16rem 2.4rem 2.4rem;
+	}
+
+	.cedro-section-content-img {
+		top: -60%;
+		right: 50%;
+		transform: translateX(50%);
+	}
+}
+
+/* 850px */
+@media screen and (max-width: 53.125em) {
+	/* HEADER ******************************************************/
+
+	.header-main-container .cta-btn {
+		display: none;
+	}
+
+	.header-nav-container {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: flex;
+	}
+
+	.mobile-nav-btn {
+		display: block;
+	}
+
+	/* HERO SECTION ************************************************/
+
+	.hero-section div:first-child {
+		max-height: 30rem;
 	}
 
 	/* SUMMARY SECTION *********************************************/
@@ -235,6 +237,10 @@
 
 /* 625px */
 @media screen and (max-width: 39.0625em) {
+	.header {
+		padding: 0 1.5rem;
+	}
+
 	.heading-secondary {
 		font-size: 3.2rem;
 	}
@@ -277,8 +283,8 @@
 	}
 
 	.client-item_logo {
-		height: 12rem;
-		width: 12rem;
+		height: 13rem;
+		width: 13rem;
 	}
 
 	/* SUMMARY SECTION *********************************************/
@@ -449,8 +455,12 @@
 	}
 
 	.clients-heading {
-		font-size: 1.8rem;
-		margin-bottom: 3.4rem;
+		font-size: 1.6rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.clients-list {
+		--clients-list-gap: 4.8rem;
 	}
 
 	.products-card.active {
@@ -514,6 +524,10 @@
 
 /* 410px */
 @media screen and (max-width: 25.625em) {
+	.header {
+		padding: 0 0;
+	}
+
 	.cedro-section-content-img {
 		width: 32rem;
 		height: 32rem;
@@ -523,18 +537,5 @@
 
 	.cedro-section {
 		margin-top: 0;
-	}
-
-	.clients-heading {
-		font-size: 1.6rem;
-	}
-
-	.clients-list {
-		--clients-list-gap: 4.8rem;
-	}
-
-	.client-item_logo {
-		height: 11rem;
-		width: 11rem;
 	}
 }
