@@ -52,7 +52,7 @@ function Footer({ className }) {
 									target="_blank"
 									href="https://workwear.cedro.com.br/blog/"
 								>
-									Blog Cedro
+									Blog
 								</a>
 							</li>
 

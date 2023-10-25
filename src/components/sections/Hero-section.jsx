@@ -8,8 +8,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function HeroSection({ summaryRef }) {
 	function scrollToRef(elementRef) {
+		let remValue = parseFloat(
+			getComputedStyle(document.documentElement).fontSize
+		);
+
 		window.scrollTo({
-			top: elementRef.current.offsetTop - 60,
+			top: elementRef.current.offsetTop - 12 * remValue,
 			behavior: "smooth",
 		});
 	}

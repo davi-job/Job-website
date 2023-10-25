@@ -50,12 +50,12 @@
 /***************************************/
 
 .clients-section {
-	margin: 12rem 0;
+	margin: 12rem 0 18rem;
 	text-align: center;
 }
 
 .clients-heading {
-	margin-bottom: 3.8rem;
+	margin-bottom: 2.4rem;
 
 	border-color: var(--text);
 

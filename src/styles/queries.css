@@ -283,8 +283,8 @@
 	}
 
 	.client-item_logo {
-		height: 12rem;
-		width: 12rem;
+		height: 13rem;
+		width: 13rem;
 	}
 
 	/* SUMMARY SECTION *********************************************/
@@ -455,8 +455,12 @@
 	}
 
 	.clients-heading {
-		font-size: 1.8rem;
-		margin-bottom: 3.4rem;
+		font-size: 1.6rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.clients-list {
+		--clients-list-gap: 4.8rem;
 	}
 
 	.products-card.active {
@@ -533,18 +537,5 @@
 
 	.cedro-section {
 		margin-top: 0;
-	}
-
-	.clients-heading {
-		font-size: 1.6rem;
-	}
-
-	.clients-list {
-		--clients-list-gap: 4.8rem;
-	}
-
-	.client-item_logo {
-		height: 11rem;
-		width: 11rem;
 	}
 }
