@@ -22,7 +22,7 @@
 
 	background: linear-gradient(
 		to top right,
-		rgba(0, 0, 0, 1) -10%,
+		rgba(0, 0, 0, 1) -30%,
 		rgba(0, 0, 0, 0) 75%
 	);
 
@@ -53,6 +53,10 @@
 	filter: brightness(0.9);
 
 	aspect-ratio: 2/1;
+}
+
+.control-dots {
+	z-index: 2 !important;
 }
 
 .dot {
