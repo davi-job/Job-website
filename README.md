@@ -12,3 +12,7 @@
 
 -   [**Netlify Version**](https://jobuniformes.netlify.app/)
 -   [**Official Version**](https://www.jobroupasprofissionais.com.br/)
+
+### Screenshot
+
+![jobuniformes](https://github.com/davi-job/Job-website/assets/74321835/40eaf8f0-67e0-41e2-8f2e-02a5872a4337)
